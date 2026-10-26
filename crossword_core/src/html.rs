@@ -27,7 +27,7 @@ impl Default for HtmlExportOptions {
     fn default() -> Self {
         Self {
             title: "Švédská křížovka".to_string(),
-            subtitle: "Vytvořeno pomocí CwdStudio Solver (cwgen)".to_string(),
+            subtitle: "Vygenerováno pomocí cwgen".to_string(),
             show_solution: true,
         }
     }
@@ -171,25 +171,25 @@ pub fn export_grid_to_html(
     html.push_str("      </div>\n");
     html.push_str("      <div class=\"header-controls\">\n");
     html.push_str("        <button id=\"btn-toggle-solution\" class=\"btn btn-primary\" onclick=\"toggleSolution()\">\n");
-    html.push_str("          <span class=\"icon\">👁️</span> <span id=\"toggle-text\">Skrýt řešení (Hráčský mód)</span>\n");
+    html.push_str("          <span id=\"toggle-text\">Skrýt řešení</span>\n");
     html.push_str("        </button>\n");
     html.push_str("        <button id=\"btn-check\" class=\"btn btn-secondary\" onclick=\"checkAnswers()\">\n");
-    html.push_str("          <span class=\"icon\">✓</span> Zkontrolovat\n");
+    html.push_str("          Zkontrolovat\n");
     html.push_str("        </button>\n");
     html.push_str("        <button id=\"btn-clear\" class=\"btn btn-secondary\" onclick=\"clearInputs()\">\n");
-    html.push_str("          <span class=\"icon\">🔄</span> Vymazat\n");
+    html.push_str("          Vymazat\n");
     html.push_str("        </button>\n");
     html.push_str("        <button id=\"btn-print\" class=\"btn btn-outline\" onclick=\"window.print()\">\n");
-    html.push_str("          <span class=\"icon\">🖨️</span> Tisk\n");
+    html.push_str("          Tisk\n");
     html.push_str("        </button>\n");
-    html.push_str("        <button id=\"btn-zoom-out\" class=\"btn btn-secondary\" onclick=\"changeCellSize(-6)\" title=\"Zmenšit buňky mřížky\">\n");
-    html.push_str("          <span class=\"icon\">🔍-</span> Zmenšit\n");
+    html.push_str("        <button id=\"btn-zoom-out\" class=\"btn btn-secondary\" onclick=\"changeCellSize(-6)\" title=\"Zmenšit\">\n");
+    html.push_str("          -\n");
     html.push_str("        </button>\n");
-    html.push_str("        <button id=\"btn-zoom-reset\" class=\"btn btn-secondary\" onclick=\"resetCellSize()\" title=\"Přizpůsobit velikost mřížky\">\n");
-    html.push_str("          <span class=\"icon\">↔️</span> Přizpůsobit\n");
+    html.push_str("        <button id=\"btn-zoom-reset\" class=\"btn btn-secondary\" onclick=\"resetCellSize()\" title=\"Přizpůsobit\">\n");
+    html.push_str("          100%\n");
     html.push_str("        </button>\n");
-    html.push_str("        <button id=\"btn-zoom-in\" class=\"btn btn-secondary\" onclick=\"changeCellSize(6)\" title=\"Zvětšit buňky mřížky\">\n");
-    html.push_str("          <span class=\"icon\">🔍+</span> Zvětšit\n");
+    html.push_str("        <button id=\"btn-zoom-in\" class=\"btn btn-secondary\" onclick=\"changeCellSize(6)\" title=\"Zvětšit\">\n");
+    html.push_str("          +\n");
     html.push_str("        </button>\n");
     html.push_str("      </div>\n");
     html.push_str("    </header>\n\n");
@@ -198,7 +198,7 @@ pub fn export_grid_to_html(
     if !tajenka_cells.is_empty() {
         html.push_str("    <section class=\"tajenka-banner\" id=\"tajenka-section\">\n");
         html.push_str("      <div class=\"tajenka-header\">\n");
-        html.push_str("        <span class=\"tajenka-badge\">★ TAJENKA</span>\n");
+        html.push_str("        <span class=\"tajenka-badge\">Tajenka</span>\n");
         html.push_str("        <span class=\"tajenka-hint\">Doplňte písmena z označených políček křížovky</span>\n");
         html.push_str("      </div>\n");
         html.push_str("      <div class=\"tajenka-boxes\">\n");
@@ -347,7 +347,7 @@ pub fn export_grid_to_html(
     html.push_str("          <h2 class=\"clues-title\"><span class=\"icon\">→</span> Vodorovně</h2>\n");
     html.push_str("          <ul class=\"clue-list\" id=\"across-clues\">\n");
     for clue in &across_clues {
-        let tajenka_badge = if clue.has_tajenka { "<span class=\"t-pill\">★ Tajenka</span>" } else { "" };
+        let tajenka_badge = if clue.has_tajenka { "<span class=\"t-pill\">Tajenka</span>" } else { "" };
         let diff_badge = match clue.difficulty {
             Some(crate::dict::Difficulty::Easy) => "<span class=\"diff-pill diff-easy\">Snadná</span>",
             Some(crate::dict::Difficulty::Medium) => "<span class=\"diff-pill diff-medium\">Střední</span>",
@@ -376,7 +376,7 @@ pub fn export_grid_to_html(
     html.push_str("          <h2 class=\"clues-title\"><span class=\"icon\">↓</span> Svisle</h2>\n");
     html.push_str("          <ul class=\"clue-list\" id=\"down-clues\">\n");
     for clue in &down_clues {
-        let tajenka_badge = if clue.has_tajenka { "<span class=\"t-pill\">★ Tajenka</span>" } else { "" };
+        let tajenka_badge = if clue.has_tajenka { "<span class=\"t-pill\">Tajenka</span>" } else { "" };
         let diff_badge = match clue.difficulty {
             Some(crate::dict::Difficulty::Easy) => "<span class=\"diff-pill diff-easy\">Snadná</span>",
             Some(crate::dict::Difficulty::Medium) => "<span class=\"diff-pill diff-medium\">Střední</span>",
@@ -405,7 +405,7 @@ pub fn export_grid_to_html(
 
     // Footer
     html.push_str("    <footer class=\"app-footer\">\n");
-    html.push_str("      <p>Vygenerováno pomocí <strong>CwdStudio Crossword Solver (cwgen)</strong> &bull; Slovník: Kaikki Czech Wiktionary</p>\n");
+    html.push_str("      <p>Vygenerováno pomocí <strong>cwgen</strong> &bull; Švédská křížovka</p>\n");
     html.push_str("    </footer>\n");
     html.push_str("  </div>\n\n");
 
@@ -1376,7 +1376,7 @@ function toggleSolution() {
   const clueAnswers = document.querySelectorAll('.clue-answer');
 
   if (isSolutionVisible) {
-    btnText.textContent = 'Skrýt řešení (Hráčský mód)';
+    btnText.textContent = 'Skrýt řešení';
     document.querySelectorAll('.cell-input').forEach(input => {
       input.value = input.dataset.solution || '';
     });

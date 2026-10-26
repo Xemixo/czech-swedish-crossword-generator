@@ -703,40 +703,40 @@ body {
     <header class="app-header">
       <div class="header-left">
         <h1>Švédská křížovka 12×10</h1>
-        <p class="subtitle">Obtížnost: Střední • Slov: 42 (Snadná: 11 • Střední: 26 • Těžká: 5) • Tajenka: &quot;PRAHA&quot;</p>
+        <p class="subtitle">Obtížnost: Střední • Slov: 42 (Snadná: 8 • Střední: 24 • Těžká: 10) • Tajenka: &quot;PRAHA&quot;</p>
       </div>
       <div class="header-controls">
         <button id="btn-toggle-solution" class="btn btn-primary" onclick="toggleSolution()">
-          <span class="icon">👁️</span> <span id="toggle-text">Skrýt řešení (Hráčský mód)</span>
+          <span id="toggle-text">Skrýt řešení</span>
         </button>
         <button id="btn-check" class="btn btn-secondary" onclick="checkAnswers()">
-          <span class="icon">✓</span> Zkontrolovat
+          Zkontrolovat
         </button>
         <button id="btn-clear" class="btn btn-secondary" onclick="clearInputs()">
-          <span class="icon">🔄</span> Vymazat
+          Vymazat
         </button>
         <button id="btn-print" class="btn btn-outline" onclick="window.print()">
-          <span class="icon">🖨️</span> Tisk
+          Tisk
         </button>
-        <button id="btn-zoom-out" class="btn btn-secondary" onclick="changeCellSize(-6)" title="Zmenšit buňky mřížky">
-          <span class="icon">🔍-</span> Zmenšit
+        <button id="btn-zoom-out" class="btn btn-secondary" onclick="changeCellSize(-6)" title="Zmenšit">
+          -
         </button>
-        <button id="btn-zoom-reset" class="btn btn-secondary" onclick="resetCellSize()" title="Přizpůsobit velikost mřížky">
-          <span class="icon">↔️</span> Přizpůsobit
+        <button id="btn-zoom-reset" class="btn btn-secondary" onclick="resetCellSize()" title="Přizpůsobit">
+          100%
         </button>
-        <button id="btn-zoom-in" class="btn btn-secondary" onclick="changeCellSize(6)" title="Zvětšit buňky mřížky">
-          <span class="icon">🔍+</span> Zvětšit
+        <button id="btn-zoom-in" class="btn btn-secondary" onclick="changeCellSize(6)" title="Zvětšit">
+          +
         </button>
       </div>
     </header>
 
     <section class="tajenka-banner" id="tajenka-section">
       <div class="tajenka-header">
-        <span class="tajenka-badge">★ TAJENKA</span>
+        <span class="tajenka-badge">Tajenka</span>
         <span class="tajenka-hint">Doplňte písmena z označených políček křížovky</span>
       </div>
       <div class="tajenka-boxes">
-        <div class="tajenka-box" data-idx="1" data-coord="1,1" data-solution="P">
+        <div class="tajenka-box" data-idx="1" data-coord="7,1" data-solution="P">
 <span class="t-num">1</span>
 <span class="t-val">P</span>
 </div>
@@ -744,11 +744,11 @@ body {
 <span class="t-num">2</span>
 <span class="t-val">R</span>
 </div>
-        <div class="tajenka-box" data-idx="3" data-coord="6,9" data-solution="A">
+        <div class="tajenka-box" data-idx="3" data-coord="2,9" data-solution="A">
 <span class="t-num">3</span>
 <span class="t-val">A</span>
 </div>
-        <div class="tajenka-box" data-idx="4" data-coord="10,9" data-solution="H">
+        <div class="tajenka-box" data-idx="4" data-coord="7,9" data-solution="H">
 <span class="t-num">4</span>
 <span class="t-val">H</span>
 </div>
@@ -774,360 +774,360 @@ body {
       <section class="grid-wrapper">
         <div class="crossword-grid" id="grid" style="--cols: 12; --rows: 10;">
           <div class="cell cell-black" data-x="0" data-y="0"></div>
-          <div class="cell cell-clue cell-clue-single" data-x="1" data-y="0" data-target-v="1" data-clue-v="posttraumatická stresová porucha" title="↓ posttraumatická stresová porucha">
-<div class="clue-single" data-clue-dir="v" data-clue="posttraumatická stresová porucha"><span class="clue-text">posttraumatická stresová porucha</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="1" data-y="0" data-target-v="1" data-clue-v="leptání" title="↓ leptání">
+<div class="clue-single" data-clue-dir="v" data-clue="leptání"><span class="clue-text">leptání</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="2" data-y="0" data-target-v="2" data-clue-v="postava starořecké mytologie; bůh zuřivé války a válečného běsnění" title="↓ postava starořecké mytologie; bůh zuřivé války a válečného běsnění">
-<div class="clue-single" data-clue-dir="v" data-clue="postava starořecké mytologie; bůh zuřivé války a válečného běsnění"><span class="clue-text">postava starořecké mytologie; bůh zuřivé války a válečného běsnění</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="2" data-y="0" data-target-v="2" data-clue-v="město na severu Finska" title="↓ město na severu Finska">
+<div class="clue-single" data-clue-dir="v" data-clue="město na severu Finska"><span class="clue-text">město na severu Finska</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="3" data-y="0" data-target-v="3" data-clue-v="rakovina" title="↓ rakovina">
-<div class="clue-single" data-clue-dir="v" data-clue="rakovina"><span class="clue-text">rakovina</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="3" data-y="0" data-target-v="3" data-clue-v="skládací cylindr" title="↓ skládací cylindr">
+<div class="clue-single" data-clue-dir="v" data-clue="skládací cylindr"><span class="clue-text">skládací cylindr</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="4" data-y="0" data-target-v="4" data-clue-v="nádoba určená pro vložení více podobných předmětů a náhodný výběr z nich losováním" title="↓ nádoba určená pro vložení více podobných předmětů a náhodný výběr z nich losováním">
-<div class="clue-single" data-clue-dir="v" data-clue="nádoba určená pro vložení více podobných předmětů a náhodný výběr z nich losováním"><span class="clue-text">nádoba určená pro vložení více podobných předmětů a náhodný výběr z nich losováním</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="4" data-y="0" data-target-v="4" data-clue-v="elektronická evidence tržeb" title="↓ elektronická evidence tržeb">
+<div class="clue-single" data-clue-dir="v" data-clue="elektronická evidence tržeb"><span class="clue-text">elektronická evidence tržeb</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="5" data-y="0" data-target-v="5" data-clue-v="podrobovat nepříznivé kritice, zahrnovat hanou" title="↓ podrobovat nepříznivé kritice, zahrnovat hanou">
-<div class="clue-single" data-clue-dir="v" data-clue="podrobovat nepříznivé kritice, zahrnovat hanou"><span class="clue-text">podrobovat nepříznivé kritice, zahrnovat hanou</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="5" data-y="0" data-target-v="5" data-clue-v="pobyt v přírodě a táboření" title="↓ pobyt v přírodě a táboření">
+<div class="clue-single" data-clue-dir="v" data-clue="pobyt v přírodě a táboření"><span class="clue-text">pobyt v přírodě a táboření</span><span class="clue-arrow">↓</span></div>
 </div>
           <div class="cell cell-clue cell-clue-single" data-x="6" data-y="0" data-clue-v="" title="↓ ">
 <div class="clue-single" data-clue-dir="v" data-clue=""><span class="clue-text"></span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="7" data-y="0" data-target-v="6" data-clue-v="vkladní knížka" title="↓ vkladní knížka">
-<div class="clue-single" data-clue-dir="v" data-clue="vkladní knížka"><span class="clue-text">vkladní knížka</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="7" data-y="0" data-target-v="6" data-clue-v="Pohár mistrů evropských zemí" title="↓ Pohár mistrů evropských zemí">
+<div class="clue-single" data-clue-dir="v" data-clue="Pohár mistrů evropských zemí"><span class="clue-text">Pohár mistrů evropských zemí</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="8" data-y="0" data-target-v="7" data-clue-v="nizozemská dutá míra (jednotka objemu)" title="↓ nizozemská dutá míra (jednotka objemu)">
-<div class="clue-single" data-clue-dir="v" data-clue="nizozemská dutá míra (jednotka objemu)"><span class="clue-text">nizozemská dutá míra (jednotka objemu)</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="8" data-y="0" data-target-v="7" data-clue-v="vyjadřuje obdiv, popř. překvapení" title="↓ vyjadřuje obdiv, popř. překvapení">
+<div class="clue-single" data-clue-dir="v" data-clue="vyjadřuje obdiv, popř. překvapení"><span class="clue-text">vyjadřuje obdiv, popř. překvapení</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="9" data-y="0" data-target-v="8" data-clue-v="rod rostlin z čeledi lipnicovitých" title="↓ rod rostlin z čeledi lipnicovitých">
-<div class="clue-single" data-clue-dir="v" data-clue="rod rostlin z čeledi lipnicovitých"><span class="clue-text">rod rostlin z čeledi lipnicovitých</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="9" data-y="0" data-target-v="8" data-clue-v="dravý pták z čeledi Accipitridae" title="↓ dravý pták z čeledi Accipitridae">
+<div class="clue-single" data-clue-dir="v" data-clue="dravý pták z čeledi Accipitridae"><span class="clue-text">dravý pták z čeledi Accipitridae</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="10" data-y="0" data-target-v="9" data-clue-v="automobil, vozidlo" title="↓ automobil, vozidlo">
-<div class="clue-single" data-clue-dir="v" data-clue="automobil, vozidlo"><span class="clue-text">automobil, vozidlo</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="10" data-y="0" data-target-v="9" data-clue-v="(zastarale) vnější části pohlavního ústrojí žen nebo samic savců, vulva" title="↓ (zastarale) vnější části pohlavního ústrojí žen nebo samic savců, vulva">
+<div class="clue-single" data-clue-dir="v" data-clue="(zastarale) vnější části pohlavního ústrojí žen nebo samic savců, vulva"><span class="clue-text">(zastarale) vnější části pohlavního ústrojí žen nebo samic savců, vulva</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="11" data-y="0" data-target-v="10" data-clue-v="aktivní násilná akce zaměřená proti někomu" title="↓ aktivní násilná akce zaměřená proti někomu">
-<div class="clue-single" data-clue-dir="v" data-clue="aktivní násilná akce zaměřená proti někomu"><span class="clue-text">aktivní násilná akce zaměřená proti někomu</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="11" data-y="0" data-target-v="10" data-clue-v="máma" title="↓ máma">
+<div class="clue-single" data-clue-dir="v" data-clue="máma"><span class="clue-text">máma</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="1" data-target-h="1" data-clue-h="větevnatý kostní výrůstek na hlavě" title="→ větevnatý kostní výrůstek na hlavě">
-<div class="clue-single" data-clue-dir="h" data-clue="větevnatý kostní výrůstek na hlavě"><span class="clue-text">větevnatý kostní výrůstek na hlavě</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="1" data-target-h="1" data-clue-h="délková míra" title="→ délková míra">
+<div class="clue-single" data-clue-dir="h" data-clue="délková míra"><span class="clue-text">délková míra</span><span class="clue-arrow">→</span></div>
 </div>
-          <div class="cell cell-letter cell-tajenka" data-x="1" data-y="1" data-val="P" data-tajenka-idx="1" data-h="1" data-v="1">
+          <div class="cell cell-letter" data-x="1" data-y="1" data-val="L" data-h="1" data-v="1">
 <span class="cell-num">1</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="L" data-solution="L">
+</div>
+          <div class="cell cell-letter" data-x="2" data-y="1" data-val="O" data-h="1" data-v="2">
+<span class="cell-num">2</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
+</div>
+          <div class="cell cell-letter" data-x="3" data-y="1" data-val="K" data-h="1" data-v="3">
+<span class="cell-num">3</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
+</div>
+          <div class="cell cell-letter" data-x="4" data-y="1" data-val="E" data-h="1" data-v="4">
+<span class="cell-num">4</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="E" data-solution="E">
+</div>
+          <div class="cell cell-letter" data-x="5" data-y="1" data-val="T" data-h="1" data-v="5">
+<span class="cell-num">5</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="6" data-y="1" data-target-h="6" data-clue-h="poražené stromy z polomu" title="→ poražené stromy z polomu">
+<div class="clue-single" data-clue-dir="h" data-clue="poražené stromy z polomu"><span class="clue-text">poražené stromy z polomu</span><span class="clue-arrow">→</span></div>
+</div>
+          <div class="cell cell-letter cell-tajenka" data-x="7" data-y="1" data-val="P" data-tajenka-idx="1" data-h="6" data-v="6">
+<span class="cell-num">6</span>
 <span class="cell-tajenka-badge">1</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
 </div>
-          <div class="cell cell-letter" data-x="2" data-y="1" data-val="A" data-h="1" data-v="2">
-<span class="cell-num">2</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-letter" data-x="3" data-y="1" data-val="R" data-h="1" data-v="3">
-<span class="cell-num">3</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
-</div>
-          <div class="cell cell-letter" data-x="4" data-y="1" data-val="O" data-h="1" data-v="4">
-<span class="cell-num">4</span>
+          <div class="cell cell-letter" data-x="8" data-y="1" data-val="O" data-h="6" data-v="7">
+<span class="cell-num">7</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
 </div>
-          <div class="cell cell-letter" data-x="5" data-y="1" data-val="H" data-h="1" data-v="5">
-<span class="cell-num">5</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="H" data-solution="H">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="6" data-y="1" data-target-h="6" data-clue-h="stroj, který čistí vodou stříkající pod vysokým tlakem" title="→ stroj, který čistí vodou stříkající pod vysokým tlakem">
-<div class="clue-single" data-clue-dir="h" data-clue="stroj, který čistí vodou stříkající pod vysokým tlakem"><span class="clue-text">stroj, který čistí vodou stříkající pod vysokým tlakem</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="7" data-y="1" data-val="V" data-h="6" data-v="6">
-<span class="cell-num">6</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="V" data-solution="V">
-</div>
-          <div class="cell cell-letter" data-x="8" data-y="1" data-val="A" data-h="6" data-v="7">
-<span class="cell-num">7</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-letter" data-x="9" data-y="1" data-val="P" data-h="6" data-v="8">
+          <div class="cell cell-letter" data-x="9" data-y="1" data-val="L" data-h="6" data-v="8">
 <span class="cell-num">8</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="L" data-solution="L">
 </div>
-          <div class="cell cell-letter" data-x="10" data-y="1" data-val="K" data-h="6" data-v="9">
+          <div class="cell cell-letter" data-x="10" data-y="1" data-val="O" data-h="6" data-v="9">
 <span class="cell-num">9</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
 </div>
-          <div class="cell cell-letter" data-x="11" data-y="1" data-val="A" data-h="6" data-v="10">
+          <div class="cell cell-letter" data-x="11" data-y="1" data-val="M" data-h="6" data-v="10">
 <span class="cell-num">10</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="2" data-target-h="11" data-clue-h="soubor míst na povrchu a spojnic mezi nimi, odpovídající pohybu určitého předmětu" title="→ soubor míst na povrchu a spojnic mezi nimi, odpovídající pohybu určitého předmětu">
-<div class="clue-single" data-clue-dir="h" data-clue="soubor míst na povrchu a spojnic mezi nimi, odpovídající pohybu určitého předmětu"><span class="clue-text">soubor míst na povrchu a spojnic mezi nimi, odpovídající pohybu určitého předmětu</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="2" data-target-h="11" data-clue-h="mužské příjmení" title="→ mužské příjmení">
+<div class="clue-single" data-clue-dir="h" data-clue="mužské příjmení"><span class="clue-text">mužské příjmení</span><span class="clue-arrow">→</span></div>
 </div>
-          <div class="cell cell-letter" data-x="1" data-y="2" data-val="T" data-h="11" data-v="1">
+          <div class="cell cell-letter" data-x="1" data-y="2" data-val="E" data-h="11" data-v="1">
 <span class="cell-num">11</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
-</div>
-          <div class="cell cell-letter" data-x="2" data-y="2" data-val="R" data-h="11" data-v="2">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
-</div>
-          <div class="cell cell-letter" data-x="3" data-y="2" data-val="A" data-h="11" data-v="3">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-letter" data-x="4" data-y="2" data-val="S" data-h="11" data-v="4">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
-</div>
-          <div class="cell cell-letter" data-x="5" data-y="2" data-val="A" data-h="11" data-v="5">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-clue cell-clue-split" data-x="6" data-y="2" data-target-h="12" data-target-v="14" data-clue-h="jednotka ryzosti zlata" data-clue-v="Dělnická strana" title="→ jednotka ryzosti zlata
-↓ Dělnická strana">
-<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="jednotka ryzosti zlata"><span class="clue-text">jednotka ryzosti zlata</span><span class="clue-arrow">→</span></div>
-<div class="clue-divider"></div>
-<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="Dělnická strana"><span class="clue-text">Dělnická strana</span><span class="clue-arrow">↓</span></div>
-</div>
-          <div class="cell cell-letter" data-x="7" data-y="2" data-val="K" data-h="12" data-v="6">
-<span class="cell-num">12</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
-</div>
-          <div class="cell cell-letter" data-x="8" data-y="2" data-val="A" data-h="12" data-v="7">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-letter" data-x="9" data-y="2" data-val="R" data-h="12" data-v="8">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
-</div>
-          <div class="cell cell-letter" data-x="10" data-y="2" data-val="Á" data-h="12" data-v="9">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Á" data-solution="Á">
-</div>
-          <div class="cell cell-letter" data-x="11" data-y="2" data-val="T" data-h="12" data-v="10">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="3" data-target-h="13" data-clue-h="druhý hlas (zejména houslový)" title="→ druhý hlas (zejména houslový)">
-<div class="clue-single" data-clue-dir="h" data-clue="druhý hlas (zejména houslový)"><span class="clue-text">druhý hlas (zejména houslový)</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="1" data-y="3" data-val="S" data-h="13" data-v="1">
-<span class="cell-num">13</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
-</div>
-          <div class="cell cell-letter" data-x="2" data-y="3" data-val="E" data-h="13" data-v="2">
-
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="E" data-solution="E">
 </div>
-          <div class="cell cell-letter" data-x="3" data-y="3" data-val="K" data-h="13" data-v="3">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
-</div>
-          <div class="cell cell-letter" data-x="4" data-y="3" data-val="U" data-h="13" data-v="4">
+          <div class="cell cell-letter" data-x="2" data-y="2" data-val="U" data-h="11" data-v="2">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="U" data-solution="U">
 </div>
-          <div class="cell cell-letter" data-x="5" data-y="3" data-val="N" data-h="13" data-v="5">
+          <div class="cell cell-letter" data-x="3" data-y="2" data-val="L" data-h="11" data-v="3">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="N" data-solution="N">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="L" data-solution="L">
 </div>
-          <div class="cell cell-letter" data-x="6" data-y="3" data-val="D" data-h="13" data-v="14">
-<span class="cell-num">14</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="D" data-solution="D">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="7" data-y="3" data-target-h="15" data-clue-h="prodlení dlužníka nebo věřitele" title="→ prodlení dlužníka nebo věřitele">
-<div class="clue-single" data-clue-dir="h" data-clue="prodlení dlužníka nebo věřitele"><span class="clue-text">prodlení dlužníka nebo věřitele</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="8" data-y="3" data-val="M" data-h="15" data-v="7">
-<span class="cell-num">15</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
-</div>
-          <div class="cell cell-letter" data-x="9" data-y="3" data-val="O" data-h="15" data-v="8">
+          <div class="cell cell-letter" data-x="4" data-y="2" data-val="E" data-h="11" data-v="4">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="E" data-solution="E">
 </div>
-          <div class="cell cell-letter" data-x="10" data-y="3" data-val="R" data-h="15" data-v="9">
+          <div class="cell cell-letter" data-x="5" data-y="2" data-val="R" data-h="11" data-v="5">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
 </div>
-          <div class="cell cell-letter" data-x="11" data-y="3" data-val="A" data-h="15" data-v="10">
+          <div class="cell cell-clue cell-clue-split" data-x="6" data-y="2" data-target-h="12" data-target-v="14" data-clue-h="dvoukřídlý hmyz" data-clue-v="národní park" title="→ dvoukřídlý hmyz
+↓ národní park">
+<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="dvoukřídlý hmyz"><span class="clue-text">dvoukřídlý hmyz</span><span class="clue-arrow">→</span></div>
+<div class="clue-divider"></div>
+<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="národní park"><span class="clue-text">národní park</span><span class="clue-arrow">↓</span></div>
+</div>
+          <div class="cell cell-letter" data-x="7" data-y="2" data-val="M" data-h="12" data-v="6">
+<span class="cell-num">12</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
+</div>
+          <div class="cell cell-letter" data-x="8" data-y="2" data-val="O" data-h="12" data-v="7">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
+</div>
+          <div class="cell cell-letter" data-x="9" data-y="2" data-val="U" data-h="12" data-v="8">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="U" data-solution="U">
+</div>
+          <div class="cell cell-letter" data-x="10" data-y="2" data-val="CH" data-h="12" data-v="9">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="CH" data-solution="CH">
+</div>
+          <div class="cell cell-letter" data-x="11" data-y="2" data-val="A" data-h="12" data-v="10">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="4" data-target-h="16" data-clue-h="PlayStation" title="→ PlayStation">
-<div class="clue-single" data-clue-dir="h" data-clue="PlayStation"><span class="clue-text">PlayStation</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="3" data-target-h="13" data-clue-h="vokativ singuláru substantiva platan" title="→ vokativ singuláru substantiva platan">
+<div class="clue-single" data-clue-dir="h" data-clue="vokativ singuláru substantiva platan"><span class="clue-text">vokativ singuláru substantiva platan</span><span class="clue-arrow">→</span></div>
 </div>
-          <div class="cell cell-letter" data-x="1" data-y="4" data-val="P" data-h="16" data-v="1">
-<span class="cell-num">16</span>
+          <div class="cell cell-letter" data-x="1" data-y="3" data-val="P" data-h="13" data-v="1">
+<span class="cell-num">13</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
 </div>
-          <div class="cell cell-letter" data-x="2" data-y="4" data-val="S" data-h="16" data-v="2">
+          <div class="cell cell-letter" data-x="2" data-y="3" data-val="L" data-h="13" data-v="2">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="L" data-solution="L">
 </div>
-          <div class="cell cell-clue cell-clue-split" data-x="3" data-y="4" data-target-h="17" data-target-v="19" data-clue-h="silný strach o vlastní bezpečnost" data-clue-v="na straně opačné k cíli pohybu" title="→ silný strach o vlastní bezpečnost
-↓ na straně opačné k cíli pohybu">
-<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="silný strach o vlastní bezpečnost"><span class="clue-text">silný strach o vlastní bezpečnost</span><span class="clue-arrow">→</span></div>
-<div class="clue-divider"></div>
-<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="na straně opačné k cíli pohybu"><span class="clue-text">na straně opačné k cíli pohybu</span><span class="clue-arrow">↓</span></div>
-</div>
-          <div class="cell cell-letter" data-x="4" data-y="4" data-val="D" data-h="17" data-v="4">
-<span class="cell-num">17</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="D" data-solution="D">
-</div>
-          <div class="cell cell-letter" data-x="5" data-y="4" data-val="Ě" data-h="17" data-v="5">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Ě" data-solution="Ě">
-</div>
-          <div class="cell cell-letter" data-x="6" data-y="4" data-val="S" data-h="17" data-v="14">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="7" data-y="4" data-target-v="20" data-clue-v="tedy, tak" title="↓ tedy, tak">
-<div class="clue-single" data-clue-dir="v" data-clue="tedy, tak"><span class="clue-text">tedy, tak</span><span class="clue-arrow">↓</span></div>
-</div>
-          <div class="cell cell-clue cell-clue-split" data-x="8" data-y="4" data-target-h="18" data-target-v="21" data-clue-h="pytel" data-clue-v="rod přízemních jehličnatých keřů, pěstovaných často v parcích" title="→ pytel
-↓ rod přízemních jehličnatých keřů, pěstovaných často v parcích">
-<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="pytel"><span class="clue-text">pytel</span><span class="clue-arrow">→</span></div>
-<div class="clue-divider"></div>
-<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="rod přízemních jehličnatých keřů, pěstovaných často v parcích"><span class="clue-text">rod přízemních jehličnatých keřů, pěstovaných často v parcích</span><span class="clue-arrow">↓</span></div>
-</div>
-          <div class="cell cell-letter" data-x="9" data-y="4" data-val="S" data-h="18" data-v="8">
-<span class="cell-num">18</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
-</div>
-          <div class="cell cell-letter" data-x="10" data-y="4" data-val="A" data-h="18" data-v="9">
+          <div class="cell cell-letter" data-x="3" data-y="3" data-val="A" data-h="13" data-v="3">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
 </div>
-          <div class="cell cell-letter" data-x="11" data-y="4" data-val="K" data-h="18" data-v="10">
+          <div class="cell cell-letter" data-x="4" data-y="3" data-val="T" data-h="13" data-v="4">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
+</div>
+          <div class="cell cell-letter" data-x="5" data-y="3" data-val="A" data-h="13" data-v="5">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
+</div>
+          <div class="cell cell-letter" data-x="6" data-y="3" data-val="N" data-h="13" data-v="14">
+<span class="cell-num">14</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="N" data-solution="N">
+</div>
+          <div class="cell cell-letter" data-x="7" data-y="3" data-val="E" data-h="13" data-v="6">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="E" data-solution="E">
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="8" data-y="3" data-target-h="15" data-clue-h="něm" title="→ něm">
+<div class="clue-single" data-clue-dir="h" data-clue="něm"><span class="clue-text">něm</span><span class="clue-arrow">→</span></div>
+</div>
+          <div class="cell cell-letter" data-x="9" data-y="3" data-val="Ň" data-h="15" data-v="8">
+<span class="cell-num">15</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Ň" data-solution="Ň">
+</div>
+          <div class="cell cell-letter" data-x="10" data-y="3" data-val="O" data-h="15" data-v="9">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
+</div>
+          <div class="cell cell-letter" data-x="11" data-y="3" data-val="M" data-h="15" data-v="10">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="4" data-target-h="16" data-clue-h="mastná organická látka" title="→ mastná organická látka">
+<div class="clue-single" data-clue-dir="h" data-clue="mastná organická látka"><span class="clue-text">mastná organická látka</span><span class="clue-arrow">→</span></div>
+</div>
+          <div class="cell cell-letter" data-x="1" data-y="4" data-val="T" data-h="16" data-v="1">
+<span class="cell-num">16</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
+</div>
+          <div class="cell cell-letter" data-x="2" data-y="4" data-val="U" data-h="16" data-v="2">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="U" data-solution="U">
+</div>
+          <div class="cell cell-letter" data-x="3" data-y="4" data-val="K" data-h="16" data-v="3">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
+</div>
+          <div class="cell cell-clue cell-clue-split" data-x="4" data-y="4" data-target-h="17" data-target-v="19" data-clue-h="mezinárodní poznávací značka" data-clue-v="pevný předmět ve tvaru plochého kvádru" title="→ mezinárodní poznávací značka
+↓ pevný předmět ve tvaru plochého kvádru">
+<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="mezinárodní poznávací značka"><span class="clue-text">mezinárodní poznávací značka</span><span class="clue-arrow">→</span></div>
+<div class="clue-divider"></div>
+<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="pevný předmět ve tvaru plochého kvádru"><span class="clue-text">pevný předmět ve tvaru plochého kvádru</span><span class="clue-arrow">↓</span></div>
+</div>
+          <div class="cell cell-letter" data-x="5" data-y="4" data-val="M" data-h="17" data-v="5">
+<span class="cell-num">17</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
+</div>
+          <div class="cell cell-letter" data-x="6" data-y="4" data-val="P" data-h="17" data-v="14">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
+</div>
+          <div class="cell cell-letter" data-x="7" data-y="4" data-val="Z" data-h="17" data-v="6">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Z" data-solution="Z">
+</div>
+          <div class="cell cell-clue cell-clue-split" data-x="8" data-y="4" data-target-h="18" data-target-v="20" data-clue-h="(zdrobněle) mužské křestní jméno Adolf" data-clue-v="souvislý acyklický graf" title="→ (zdrobněle) mužské křestní jméno Adolf
+↓ souvislý acyklický graf">
+<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="(zdrobněle) mužské křestní jméno Adolf"><span class="clue-text">(zdrobněle) mužské křestní jméno Adolf</span><span class="clue-arrow">→</span></div>
+<div class="clue-divider"></div>
+<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="souvislý acyklický graf"><span class="clue-text">souvislý acyklický graf</span><span class="clue-arrow">↓</span></div>
+</div>
+          <div class="cell cell-letter" data-x="9" data-y="4" data-val="Á" data-h="18" data-v="8">
+<span class="cell-num">18</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Á" data-solution="Á">
+</div>
+          <div class="cell cell-letter" data-x="10" data-y="4" data-val="D" data-h="18" data-v="9">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="D" data-solution="D">
+</div>
+          <div class="cell cell-letter" data-x="11" data-y="4" data-val="A" data-h="18" data-v="10">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
 </div>
           <div class="cell cell-clue cell-clue-single" data-x="0" data-y="5" data-clue-h="" title="→ ">
 <div class="clue-single" data-clue-dir="h" data-clue=""><span class="clue-text"></span><span class="clue-arrow">→</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="1" data-y="5" data-target-v="22" data-clue-v="římský bůh války" title="↓ římský bůh války">
-<div class="clue-single" data-clue-dir="v" data-clue="římský bůh války"><span class="clue-text">římský bůh války</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="1" data-y="5" data-target-v="21" data-clue-v="neovladatelné, až vražedné šílenství, chorobná zuřivost" title="↓ neovladatelné, až vražedné šílenství, chorobná zuřivost">
+<div class="clue-single" data-clue-dir="v" data-clue="neovladatelné, až vražedné šílenství, chorobná zuřivost"><span class="clue-text">neovladatelné, až vražedné šílenství, chorobná zuřivost</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-split" data-x="2" data-y="5" data-target-h="19" data-target-v="23" data-clue-h="navíjet, svíjet" data-clue-v="psí ohon" title="→ navíjet, svíjet
-↓ psí ohon">
-<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="navíjet, svíjet"><span class="clue-text">navíjet, svíjet</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="2" data-y="5" data-target-v="22" data-clue-v="měna některých států" title="↓ měna některých států">
+<div class="clue-single" data-clue-dir="v" data-clue="měna některých států"><span class="clue-text">měna některých států</span><span class="clue-arrow">↓</span></div>
+</div>
+          <div class="cell cell-clue cell-clue-split" data-x="3" data-y="5" data-target-h="19" data-target-v="23" data-clue-h="polypropylen" data-clue-v="otec" title="→ polypropylen
+↓ otec">
+<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="polypropylen"><span class="clue-text">polypropylen</span><span class="clue-arrow">→</span></div>
 <div class="clue-divider"></div>
-<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="psí ohon"><span class="clue-text">psí ohon</span><span class="clue-arrow">↓</span></div>
+<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="otec"><span class="clue-text">otec</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-letter" data-x="3" data-y="5" data-val="V" data-h="19" data-v="19">
+          <div class="cell cell-letter" data-x="4" data-y="5" data-val="P" data-h="19" data-v="19">
 <span class="cell-num">19</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="V" data-solution="V">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
 </div>
-          <div class="cell cell-letter" data-x="4" data-y="5" data-val="Í" data-h="19" data-v="4">
+          <div class="cell cell-letter" data-x="5" data-y="5" data-val="P" data-h="19" data-v="5">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Í" data-solution="Í">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
 </div>
-          <div class="cell cell-letter" data-x="5" data-y="5" data-val="T" data-h="19" data-v="5">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
+          <div class="cell cell-clue cell-clue-single" data-x="6" data-y="5" data-target-v="24" data-clue-v="Česká spořitelna" title="↓ Česká spořitelna">
+<div class="clue-single" data-clue-dir="v" data-clue="Česká spořitelna"><span class="clue-text">Česká spořitelna</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-split" data-x="6" data-y="5" data-target-h="20" data-target-v="24" data-clue-h="podnik zahraničního obchodu" data-clue-v="pohovka s opěradly, lenoška" title="→ podnik zahraničního obchodu
-↓ pohovka s opěradly, lenoška">
-<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="podnik zahraničního obchodu"><span class="clue-text">podnik zahraničního obchodu</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-clue cell-clue-split" data-x="7" data-y="5" data-target-h="20" data-target-v="25" data-clue-h="sportovní klub" data-clue-v="příslušník indické náboženské obce" title="→ sportovní klub
+↓ příslušník indické náboženské obce">
+<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="sportovní klub"><span class="clue-text">sportovní klub</span><span class="clue-arrow">→</span></div>
 <div class="clue-divider"></div>
-<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="pohovka s opěradly, lenoška"><span class="clue-text">pohovka s opěradly, lenoška</span><span class="clue-arrow">↓</span></div>
+<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="příslušník indické náboženské obce"><span class="clue-text">příslušník indické náboženské obce</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-letter" data-x="7" data-y="5" data-val="P" data-h="20" data-v="20">
+          <div class="cell cell-letter" data-x="8" data-y="5" data-val="S" data-h="20" data-v="20">
 <span class="cell-num">20</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
-</div>
-          <div class="cell cell-letter" data-x="8" data-y="5" data-val="Z" data-h="20" data-v="21">
-<span class="cell-num">21</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Z" data-solution="Z">
-</div>
-          <div class="cell cell-letter" data-x="9" data-y="5" data-val="O" data-h="20" data-v="8">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="10" data-y="5" data-target-v="25" data-clue-v="nakloněná část terénu" title="↓ nakloněná část terénu">
-<div class="clue-single" data-clue-dir="v" data-clue="nakloněná část terénu"><span class="clue-text">nakloněná část terénu</span><span class="clue-arrow">↓</span></div>
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="11" data-y="5" data-target-v="26" data-clue-v="babička" title="↓ babička">
-<div class="clue-single" data-clue-dir="v" data-clue="babička"><span class="clue-text">babička</span><span class="clue-arrow">↓</span></div>
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="6" data-target-h="22" data-clue-h="mezinárodní poznávací značka" title="→ mezinárodní poznávací značka">
-<div class="clue-single" data-clue-dir="h" data-clue="mezinárodní poznávací značka"><span class="clue-text">mezinárodní poznávací značka</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="1" data-y="6" data-val="M" data-h="22" data-v="22">
-<span class="cell-num">22</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
-</div>
-          <div class="cell cell-letter" data-x="2" data-y="6" data-val="P" data-h="22" data-v="23">
-<span class="cell-num">23</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
-</div>
-          <div class="cell cell-letter" data-x="3" data-y="6" data-val="Z" data-h="22" data-v="19">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Z" data-solution="Z">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="4" data-y="6" data-target-v="28" data-clue-v="kód" title="↓ kód">
-<div class="clue-single" data-clue-dir="v" data-clue="kód"><span class="clue-text">kód</span><span class="clue-arrow">↓</span></div>
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="5" data-y="6" data-target-h="24" data-clue-h="Spojené arabské emiráty" title="→ Spojené arabské emiráty">
-<div class="clue-single" data-clue-dir="h" data-clue="Spojené arabské emiráty"><span class="clue-text">Spojené arabské emiráty</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="6" data-y="6" data-val="S" data-h="24" data-v="24">
-<span class="cell-num">24</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
 </div>
-          <div class="cell cell-letter" data-x="7" data-y="6" data-val="A" data-h="24" data-v="20">
+          <div class="cell cell-letter" data-x="9" data-y="5" data-val="K" data-h="20" data-v="8">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="10" data-y="5" data-target-v="26" data-clue-v="chcát" title="↓ chcát">
+<div class="clue-single" data-clue-dir="v" data-clue="chcát"><span class="clue-text">chcát</span><span class="clue-arrow">↓</span></div>
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="11" data-y="5" data-target-v="27" data-clue-v="jihoamerický hlodavec" title="↓ jihoamerický hlodavec">
+<div class="clue-single" data-clue-dir="v" data-clue="jihoamerický hlodavec"><span class="clue-text">jihoamerický hlodavec</span><span class="clue-arrow">↓</span></div>
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="6" data-target-h="21" data-clue-h="esparto" title="→ esparto">
+<div class="clue-single" data-clue-dir="h" data-clue="esparto"><span class="clue-text">esparto</span><span class="clue-arrow">→</span></div>
+</div>
+          <div class="cell cell-letter" data-x="1" data-y="6" data-val="A" data-h="21" data-v="21">
+<span class="cell-num">21</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
+</div>
+          <div class="cell cell-letter" data-x="2" data-y="6" data-val="L" data-h="21" data-v="22">
+<span class="cell-num">22</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="L" data-solution="L">
+</div>
+          <div class="cell cell-letter" data-x="3" data-y="6" data-val="F" data-h="21" data-v="23">
+<span class="cell-num">23</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="F" data-solution="F">
+</div>
+          <div class="cell cell-letter" data-x="4" data-y="6" data-val="A" data-h="21" data-v="19">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
 </div>
-          <div class="cell cell-letter" data-x="8" data-y="6" data-val="E" data-h="24" data-v="21">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="E" data-solution="E">
+          <div class="cell cell-clue cell-clue-single" data-x="5" data-y="6" data-target-h="24" data-clue-h="Československá televize; československé televizní médium" title="→ Československá televize; československé televizní médium">
+<div class="clue-single" data-clue-dir="h" data-clue="Československá televize; československé televizní médium"><span class="clue-text">Československá televize; československé televizní médium</span><span class="clue-arrow">→</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-split" data-x="9" data-y="6" data-target-h="25" data-target-v="30" data-clue-h="Světová banka" data-clue-v="odlučovač ropných látek" title="→ Světová banka
-↓ odlučovač ropných látek">
-<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="Světová banka"><span class="clue-text">Světová banka</span><span class="clue-arrow">→</span></div>
-<div class="clue-divider"></div>
-<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="odlučovač ropných látek"><span class="clue-text">odlučovač ropných látek</span><span class="clue-arrow">↓</span></div>
+          <div class="cell cell-letter" data-x="6" data-y="6" data-val="Č" data-h="24" data-v="24">
+<span class="cell-num">24</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Č" data-solution="Č">
 </div>
-          <div class="cell cell-letter" data-x="10" data-y="6" data-val="S" data-h="25" data-v="25">
+          <div class="cell cell-letter" data-x="7" data-y="6" data-val="S" data-h="24" data-v="25">
 <span class="cell-num">25</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
 </div>
-          <div class="cell cell-letter" data-x="11" data-y="6" data-val="B" data-h="25" data-v="26">
-<span class="cell-num">26</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="B" data-solution="B">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="7" data-target-h="27" data-clue-h="lihovina z kvašených hroznů ochucená anýzem pocházející z Blízkého východu, též araq" title="→ lihovina z kvašených hroznů ochucená anýzem pocházející z Blízkého východu, též araq">
-<div class="clue-single" data-clue-dir="h" data-clue="lihovina z kvašených hroznů ochucená anýzem pocházející z Blízkého východu, též araq"><span class="clue-text">lihovina z kvašených hroznů ochucená anýzem pocházející z Blízkého východu, též araq</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="1" data-y="7" data-val="A" data-h="27" data-v="22">
-<span class="cell-num">27</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-letter" data-x="2" data-y="7" data-val="R" data-h="27" data-v="23">
+          <div class="cell cell-letter" data-x="8" data-y="6" data-val="T" data-h="24" data-v="20">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
 </div>
-          <div class="cell cell-letter" data-x="3" data-y="7" data-val="A" data-h="27" data-v="19">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-letter" data-x="4" data-y="7" data-val="K" data-h="27" data-v="28">
-<span class="cell-num">28</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
-</div>
-          <div class="cell cell-clue cell-clue-split" data-x="5" data-y="7" data-target-h="29" data-target-v="32" data-clue-h="název barvy" data-clue-v="Lidové noviny" title="→ název barvy
-↓ Lidové noviny">
-<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="název barvy"><span class="clue-text">název barvy</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-clue cell-clue-split" data-x="9" data-y="6" data-target-h="26" data-target-v="30" data-clue-h="štěrkopísek" data-clue-v="uvozuje větu jednočlennou" title="→ štěrkopísek
+↓ uvozuje větu jednočlennou">
+<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="štěrkopísek"><span class="clue-text">štěrkopísek</span><span class="clue-arrow">→</span></div>
 <div class="clue-divider"></div>
-<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="Lidové noviny"><span class="clue-text">Lidové noviny</span><span class="clue-arrow">↓</span></div>
+<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="uvozuje větu jednočlennou"><span class="clue-text">uvozuje větu jednočlennou</span><span class="clue-arrow">↓</span></div>
 </div>
-          <div class="cell cell-letter" data-x="6" data-y="7" data-val="O" data-h="29" data-v="24">
-<span class="cell-num">29</span>
+          <div class="cell cell-letter" data-x="10" data-y="6" data-val="Š" data-h="26" data-v="26">
+<span class="cell-num">26</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Š" data-solution="Š">
+</div>
+          <div class="cell cell-letter" data-x="11" data-y="6" data-val="P" data-h="26" data-v="27">
+<span class="cell-num">27</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="P" data-solution="P">
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="7" data-target-h="28" data-clue-h="těžký elektron" title="→ těžký elektron">
+<div class="clue-single" data-clue-dir="h" data-clue="těžký elektron"><span class="clue-text">těžký elektron</span><span class="clue-arrow">→</span></div>
+</div>
+          <div class="cell cell-letter" data-x="1" data-y="7" data-val="M" data-h="28" data-v="21">
+<span class="cell-num">28</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
+</div>
+          <div class="cell cell-letter" data-x="2" data-y="7" data-val="I" data-h="28" data-v="22">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="I" data-solution="I">
+</div>
+          <div class="cell cell-letter" data-x="3" data-y="7" data-val="O" data-h="28" data-v="23">
+
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
 </div>
-          <div class="cell cell-letter" data-x="7" data-y="7" data-val="K" data-h="29" data-v="20">
+          <div class="cell cell-letter" data-x="4" data-y="7" data-val="N" data-h="28" data-v="19">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="N" data-solution="N">
 </div>
-          <div class="cell cell-letter cell-tajenka" data-x="8" data-y="7" data-val="R" data-tajenka-idx="2" data-h="29" data-v="21">
+          <div class="cell cell-clue cell-clue-split" data-x="5" data-y="7" data-target-h="29" data-target-v="32" data-clue-h="sirotek" data-clue-v="vyjádření radosti" title="→ sirotek
+↓ vyjádření radosti">
+<div class="clue-half clue-half-top" data-clue-dir="h" data-clue="sirotek"><span class="clue-text">sirotek</span><span class="clue-arrow">→</span></div>
+<div class="clue-divider"></div>
+<div class="clue-half clue-half-bottom" data-clue-dir="v" data-clue="vyjádření radosti"><span class="clue-text">vyjádření radosti</span><span class="clue-arrow">↓</span></div>
+</div>
+          <div class="cell cell-letter" data-x="6" data-y="7" data-val="S" data-h="29" data-v="24">
+<span class="cell-num">29</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
+</div>
+          <div class="cell cell-letter" data-x="7" data-y="7" data-val="I" data-h="29" data-v="25">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="I" data-solution="I">
+</div>
+          <div class="cell cell-letter cell-tajenka" data-x="8" data-y="7" data-val="R" data-tajenka-idx="2" data-h="29" data-v="20">
 
 <span class="cell-tajenka-badge">2</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
@@ -1136,105 +1136,105 @@ body {
 <span class="cell-num">30</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
 </div>
-          <div class="cell cell-letter" data-x="10" data-y="7" data-val="V" data-h="29" data-v="25">
+          <div class="cell cell-letter" data-x="10" data-y="7" data-val="T" data-h="29" data-v="26">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="V" data-solution="V">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
 </div>
-          <div class="cell cell-letter" data-x="11" data-y="7" data-val="Á" data-h="29" data-v="26">
+          <div class="cell cell-letter" data-x="11" data-y="7" data-val="A" data-h="29" data-v="27">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Á" data-solution="Á">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="8" data-target-h="31" data-clue-h="mužské křestní jméno" title="→ mužské křestní jméno">
-<div class="clue-single" data-clue-dir="h" data-clue="mužské křestní jméno"><span class="clue-text">mužské křestní jméno</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="8" data-target-h="31" data-clue-h="rozsudek" title="→ rozsudek">
+<div class="clue-single" data-clue-dir="h" data-clue="rozsudek"><span class="clue-text">rozsudek</span><span class="clue-arrow">→</span></div>
 </div>
-          <div class="cell cell-letter" data-x="1" data-y="8" data-val="R" data-h="31" data-v="22">
+          <div class="cell cell-letter" data-x="1" data-y="8" data-val="O" data-h="31" data-v="21">
 <span class="cell-num">31</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
+</div>
+          <div class="cell cell-letter" data-x="2" data-y="8" data-val="R" data-h="31" data-v="22">
+
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
 </div>
-          <div class="cell cell-letter" data-x="2" data-y="8" data-val="U" data-h="31" data-v="23">
+          <div class="cell cell-letter" data-x="3" data-y="8" data-val="T" data-h="31" data-v="23">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="U" data-solution="U">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
 </div>
-          <div class="cell cell-letter" data-x="3" data-y="8" data-val="D" data-h="31" data-v="19">
+          <div class="cell cell-letter" data-x="4" data-y="8" data-val="E" data-h="31" data-v="19">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="D" data-solution="D">
-</div>
-          <div class="cell cell-letter" data-x="4" data-y="8" data-val="O" data-h="31" data-v="28">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="E" data-solution="E">
 </div>
           <div class="cell cell-letter" data-x="5" data-y="8" data-val="L" data-h="31" data-v="32">
 <span class="cell-num">32</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="L" data-solution="L">
 </div>
-          <div class="cell cell-letter" data-x="6" data-y="8" data-val="F" data-h="31" data-v="24">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="F" data-solution="F">
+          <div class="cell cell-clue cell-clue-single" data-x="6" data-y="8" data-target-h="33" data-clue-h="kůň" title="→ kůň">
+<div class="clue-single" data-clue-dir="h" data-clue="kůň"><span class="clue-text">kůň</span><span class="clue-arrow">→</span></div>
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="7" data-y="8" data-target-h="33" data-clue-h="dítě" title="→ dítě">
-<div class="clue-single" data-clue-dir="h" data-clue="dítě"><span class="clue-text">dítě</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="8" data-y="8" data-val="A" data-h="33" data-v="21">
+          <div class="cell cell-letter" data-x="7" data-y="8" data-val="K" data-h="33" data-v="25">
 <span class="cell-num">33</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
 </div>
-          <div class="cell cell-letter" data-x="9" data-y="8" data-val="R" data-h="33" data-v="30">
+          <div class="cell cell-letter" data-x="8" data-y="8" data-val="O" data-h="33" data-v="20">
 
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
 </div>
-          <div class="cell cell-letter" data-x="10" data-y="8" data-val="A" data-h="33" data-v="25">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
-</div>
-          <div class="cell cell-letter" data-x="11" data-y="8" data-val="B" data-h="33" data-v="26">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="B" data-solution="B">
-</div>
-          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="9" data-target-h="34" data-clue-h="svislý otvor v zemi, umožňující čerpání vody na povrch" title="→ svislý otvor v zemi, umožňující čerpání vody na povrch">
-<div class="clue-single" data-clue-dir="h" data-clue="svislý otvor v zemi, umožňující čerpání vody na povrch"><span class="clue-text">svislý otvor v zemi, umožňující čerpání vody na povrch</span><span class="clue-arrow">→</span></div>
-</div>
-          <div class="cell cell-letter" data-x="1" data-y="9" data-val="S" data-h="34" data-v="22">
-<span class="cell-num">34</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="S" data-solution="S">
-</div>
-          <div class="cell cell-letter" data-x="2" data-y="9" data-val="T" data-h="34" data-v="23">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
-</div>
-          <div class="cell cell-letter" data-x="3" data-y="9" data-val="U" data-h="34" data-v="19">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="U" data-solution="U">
-</div>
-          <div class="cell cell-letter" data-x="4" data-y="9" data-val="D" data-h="34" data-v="28">
-
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="D" data-solution="D">
-</div>
-          <div class="cell cell-letter" data-x="5" data-y="9" data-val="N" data-h="34" data-v="32">
+          <div class="cell cell-letter" data-x="9" data-y="8" data-val="N" data-h="33" data-v="30">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="N" data-solution="N">
 </div>
-          <div class="cell cell-letter cell-tajenka" data-x="6" data-y="9" data-val="A" data-tajenka-idx="3" data-h="34" data-v="24">
+          <div class="cell cell-letter" data-x="10" data-y="8" data-val="Í" data-h="33" data-v="26">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="Í" data-solution="Í">
+</div>
+          <div class="cell cell-letter" data-x="11" data-y="8" data-val="K" data-h="33" data-v="27">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="0" data-y="9" data-target-h="34" data-clue-h="ženské křestní jméno" title="→ ženské křestní jméno">
+<div class="clue-single" data-clue-dir="h" data-clue="ženské křestní jméno"><span class="clue-text">ženské křestní jméno</span><span class="clue-arrow">→</span></div>
+</div>
+          <div class="cell cell-letter" data-x="1" data-y="9" data-val="K" data-h="34" data-v="21">
+<span class="cell-num">34</span>
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="K" data-solution="K">
+</div>
+          <div class="cell cell-letter cell-tajenka" data-x="2" data-y="9" data-val="A" data-tajenka-idx="3" data-h="34" data-v="22">
 
 <span class="cell-tajenka-badge">3</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
 </div>
-          <div class="cell cell-clue cell-clue-single" data-x="7" data-y="9" data-target-h="35" data-clue-h="rod ptáků z čeledi vlhovití (Merops)" title="→ rod ptáků z čeledi vlhovití (Merops)">
-<div class="clue-single" data-clue-dir="h" data-clue="rod ptáků z čeledi vlhovití (Merops)"><span class="clue-text">rod ptáků z čeledi vlhovití (Merops)</span><span class="clue-arrow">→</span></div>
+          <div class="cell cell-letter" data-x="3" data-y="9" data-val="R" data-h="34" data-v="23">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="R" data-solution="R">
 </div>
-          <div class="cell cell-letter" data-x="8" data-y="9" data-val="V" data-h="35" data-v="21">
-<span class="cell-num">35</span>
-<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="V" data-solution="V">
-</div>
-          <div class="cell cell-letter" data-x="9" data-y="9" data-val="L" data-h="35" data-v="30">
+          <div class="cell cell-letter" data-x="4" data-y="9" data-val="L" data-h="34" data-v="19">
 
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="L" data-solution="L">
 </div>
-          <div class="cell cell-letter cell-tajenka" data-x="10" data-y="9" data-val="H" data-tajenka-idx="4" data-h="35" data-v="25">
+          <div class="cell cell-letter" data-x="5" data-y="9" data-val="A" data-h="34" data-v="32">
 
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
+</div>
+          <div class="cell cell-clue cell-clue-single" data-x="6" data-y="9" data-target-h="35" data-clue-h="protiklad ducha" title="→ protiklad ducha">
+<div class="clue-single" data-clue-dir="h" data-clue="protiklad ducha"><span class="clue-text">protiklad ducha</span><span class="clue-arrow">→</span></div>
+</div>
+          <div class="cell cell-letter cell-tajenka" data-x="7" data-y="9" data-val="H" data-tajenka-idx="4" data-h="35" data-v="25">
+<span class="cell-num">35</span>
 <span class="cell-tajenka-badge">4</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="H" data-solution="H">
 </div>
-          <div class="cell cell-letter cell-tajenka" data-x="11" data-y="9" data-val="A" data-tajenka-idx="5" data-h="35" data-v="26">
+          <div class="cell cell-letter" data-x="8" data-y="9" data-val="M" data-h="35" data-v="20">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="M" data-solution="M">
+</div>
+          <div class="cell cell-letter" data-x="9" data-y="9" data-val="O" data-h="35" data-v="30">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="O" data-solution="O">
+</div>
+          <div class="cell cell-letter" data-x="10" data-y="9" data-val="T" data-h="35" data-v="26">
+
+<input type="text" class="cell-input" maxlength="2" autocomplete="off" value="T" data-solution="T">
+</div>
+          <div class="cell cell-letter cell-tajenka" data-x="11" data-y="9" data-val="A" data-tajenka-idx="5" data-h="35" data-v="27">
 
 <span class="cell-tajenka-badge">5</span>
 <input type="text" class="cell-input" maxlength="2" autocomplete="off" value="A" data-solution="A">
@@ -1250,73 +1250,73 @@ body {
 <div class="clue-meta">
 <span class="clue-num">1.</span>
 <span class="clue-len">(5 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span><span class="t-pill">★ Tajenka</span>
+<span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">větevnatý kostní výrůstek na hlavě</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>PAROH</strong></div>
+<div class="clue-text">délková míra</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>LOKET</strong></div>
 </li>
             <li class="clue-item" data-num="6" data-dir="h" data-cells="7,1;8,1;9,1;10,1;11,1">
 <div class="clue-meta">
 <span class="clue-num">6.</span>
 <span class="clue-len">(5 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-medium">Střední</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">stroj, který čistí vodou stříkající pod vysokým tlakem</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>VAPKA</strong></div>
+<div class="clue-text">poražené stromy z polomu</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>POLOM</strong></div>
 </li>
             <li class="clue-item" data-num="11" data-dir="h" data-cells="1,2;2,2;3,2;4,2;5,2">
 <div class="clue-meta">
 <span class="clue-num">11.</span>
 <span class="clue-len">(5 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span>
+<span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">soubor míst na povrchu a spojnic mezi nimi, odpovídající pohybu určitého předmětu</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>TRASA</strong></div>
+<div class="clue-text">mužské příjmení</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>EULER</strong></div>
 </li>
             <li class="clue-item" data-num="12" data-dir="h" data-cells="7,2;8,2;9,2;10,2;11,2">
 <div class="clue-meta">
 <span class="clue-num">12.</span>
 <span class="clue-len">(5 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-easy">Snadná</span>
 </div>
-<div class="clue-text">jednotka ryzosti zlata</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>KARÁT</strong></div>
+<div class="clue-text">dvoukřídlý hmyz</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>MOUCHA</strong></div>
 </li>
-            <li class="clue-item" data-num="13" data-dir="h" data-cells="1,3;2,3;3,3;4,3;5,3;6,3">
+            <li class="clue-item" data-num="13" data-dir="h" data-cells="1,3;2,3;3,3;4,3;5,3;6,3;7,3">
 <div class="clue-meta">
 <span class="clue-num">13.</span>
-<span class="clue-len">(6 písm.)</span>
-<span class="diff-pill diff-hard">Těžká</span>
-</div>
-<div class="clue-text">druhý hlas (zejména houslový)</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>SEKUND</strong></div>
-</li>
-            <li class="clue-item" data-num="15" data-dir="h" data-cells="8,3;9,3;10,3;11,3">
-<div class="clue-meta">
-<span class="clue-num">15.</span>
-<span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-hard">Těžká</span>
-</div>
-<div class="clue-text">prodlení dlužníka nebo věřitele</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>MORA</strong></div>
-</li>
-            <li class="clue-item" data-num="16" data-dir="h" data-cells="1,4;2,4">
-<div class="clue-meta">
-<span class="clue-num">16.</span>
-<span class="clue-len">(2 písm.)</span>
+<span class="clue-len">(7 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">PlayStation</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>PS</strong></div>
+<div class="clue-text">vokativ singuláru substantiva platan</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>PLATANE</strong></div>
 </li>
-            <li class="clue-item" data-num="17" data-dir="h" data-cells="4,4;5,4;6,4">
+            <li class="clue-item" data-num="15" data-dir="h" data-cells="9,3;10,3;11,3">
 <div class="clue-meta">
-<span class="clue-num">17.</span>
+<span class="clue-num">15.</span>
+<span class="clue-len">(3 písm.)</span>
+<span class="diff-pill diff-hard">Těžká</span>
+</div>
+<div class="clue-text">něm</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ŇOM</strong></div>
+</li>
+            <li class="clue-item" data-num="16" data-dir="h" data-cells="1,4;2,4;3,4">
+<div class="clue-meta">
+<span class="clue-num">16.</span>
 <span class="clue-len">(3 písm.)</span>
 <span class="diff-pill diff-easy">Snadná</span>
 </div>
-<div class="clue-text">silný strach o vlastní bezpečnost</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>DĚS</strong></div>
+<div class="clue-text">mastná organická látka</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>TUK</strong></div>
+</li>
+            <li class="clue-item" data-num="17" data-dir="h" data-cells="5,4;6,4;7,4">
+<div class="clue-meta">
+<span class="clue-num">17.</span>
+<span class="clue-len">(3 písm.)</span>
+<span class="diff-pill diff-medium">Střední</span>
+</div>
+<div class="clue-text">mezinárodní poznávací značka</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>MPZ</strong></div>
 </li>
             <li class="clue-item" data-num="18" data-dir="h" data-cells="9,4;10,4;11,4">
 <div class="clue-meta">
@@ -1324,35 +1324,35 @@ body {
 <span class="clue-len">(3 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">pytel</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>SAK</strong></div>
+<div class="clue-text">(zdrobněle) mužské křestní jméno Adolf</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ÁDA</strong></div>
 </li>
-            <li class="clue-item" data-num="19" data-dir="h" data-cells="3,5;4,5;5,5">
+            <li class="clue-item" data-num="19" data-dir="h" data-cells="4,5;5,5">
 <div class="clue-meta">
 <span class="clue-num">19.</span>
-<span class="clue-len">(3 písm.)</span>
+<span class="clue-len">(2 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">navíjet, svíjet</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>VÍT</strong></div>
+<div class="clue-text">polypropylen</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>PP</strong></div>
 </li>
-            <li class="clue-item" data-num="20" data-dir="h" data-cells="7,5;8,5;9,5">
+            <li class="clue-item" data-num="20" data-dir="h" data-cells="8,5;9,5">
 <div class="clue-meta">
 <span class="clue-num">20.</span>
-<span class="clue-len">(3 písm.)</span>
+<span class="clue-len">(2 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">podnik zahraničního obchodu</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>PZO</strong></div>
+<div class="clue-text">sportovní klub</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>SK</strong></div>
 </li>
-            <li class="clue-item" data-num="22" data-dir="h" data-cells="1,6;2,6;3,6">
+            <li class="clue-item" data-num="21" data-dir="h" data-cells="1,6;2,6;3,6;4,6">
 <div class="clue-meta">
-<span class="clue-num">22.</span>
-<span class="clue-len">(3 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="clue-num">21.</span>
+<span class="clue-len">(4 písm.)</span>
+<span class="diff-pill diff-hard">Těžká</span>
 </div>
-<div class="clue-text">mezinárodní poznávací značka</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>MPZ</strong></div>
+<div class="clue-text">esparto</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ALFA</strong></div>
 </li>
             <li class="clue-item" data-num="24" data-dir="h" data-cells="6,6;7,6;8,6">
 <div class="clue-meta">
@@ -1360,71 +1360,71 @@ body {
 <span class="clue-len">(3 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">Spojené arabské emiráty</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>SAE</strong></div>
+<div class="clue-text">Československá televize; československé televizní médium</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ČST</strong></div>
 </li>
-            <li class="clue-item" data-num="25" data-dir="h" data-cells="10,6;11,6">
+            <li class="clue-item" data-num="26" data-dir="h" data-cells="10,6;11,6">
 <div class="clue-meta">
-<span class="clue-num">25.</span>
+<span class="clue-num">26.</span>
 <span class="clue-len">(2 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-hard">Těžká</span>
 </div>
-<div class="clue-text">Světová banka</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>SB</strong></div>
+<div class="clue-text">štěrkopísek</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ŠP</strong></div>
 </li>
-            <li class="clue-item" data-num="27" data-dir="h" data-cells="1,7;2,7;3,7;4,7">
+            <li class="clue-item" data-num="28" data-dir="h" data-cells="1,7;2,7;3,7;4,7">
 <div class="clue-meta">
-<span class="clue-num">27.</span>
+<span class="clue-num">28.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-hard">Těžká</span>
 </div>
-<div class="clue-text">lihovina z kvašených hroznů ochucená anýzem pocházející z Blízkého východu, též araq</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>ARAK</strong></div>
+<div class="clue-text">těžký elektron</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>MION</strong></div>
 </li>
             <li class="clue-item" data-num="29" data-dir="h" data-cells="6,7;7,7;8,7;9,7;10,7;11,7">
 <div class="clue-meta">
 <span class="clue-num">29.</span>
 <span class="clue-len">(6 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span><span class="t-pill">★ Tajenka</span>
+<span class="diff-pill diff-medium">Střední</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">název barvy</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>OKROVÁ</strong></div>
+<div class="clue-text">sirotek</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>SIROTA</strong></div>
 </li>
-            <li class="clue-item" data-num="31" data-dir="h" data-cells="1,8;2,8;3,8;4,8;5,8;6,8">
+            <li class="clue-item" data-num="31" data-dir="h" data-cells="1,8;2,8;3,8;4,8;5,8">
 <div class="clue-meta">
 <span class="clue-num">31.</span>
-<span class="clue-len">(6 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span>
+<span class="clue-len">(5 písm.)</span>
+<span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">mužské křestní jméno</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>RUDOLF</strong></div>
+<div class="clue-text">rozsudek</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ORTEL</strong></div>
 </li>
-            <li class="clue-item" data-num="33" data-dir="h" data-cells="8,8;9,8;10,8;11,8">
+            <li class="clue-item" data-num="33" data-dir="h" data-cells="7,8;8,8;9,8;10,8;11,8">
 <div class="clue-meta">
 <span class="clue-num">33.</span>
-<span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-hard">Těžká</span>
+<span class="clue-len">(5 písm.)</span>
+<span class="diff-pill diff-easy">Snadná</span>
 </div>
-<div class="clue-text">dítě</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>ARAB</strong></div>
+<div class="clue-text">kůň</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>KONÍK</strong></div>
 </li>
-            <li class="clue-item" data-num="34" data-dir="h" data-cells="1,9;2,9;3,9;4,9;5,9;6,9">
+            <li class="clue-item" data-num="34" data-dir="h" data-cells="1,9;2,9;3,9;4,9;5,9">
 <div class="clue-meta">
 <span class="clue-num">34.</span>
-<span class="clue-len">(6 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span><span class="t-pill">★ Tajenka</span>
+<span class="clue-len">(5 písm.)</span>
+<span class="diff-pill diff-easy">Snadná</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">svislý otvor v zemi, umožňující čerpání vody na povrch</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>STUDNA</strong></div>
+<div class="clue-text">ženské křestní jméno</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>KARLA</strong></div>
 </li>
-            <li class="clue-item" data-num="35" data-dir="h" data-cells="8,9;9,9;10,9;11,9">
+            <li class="clue-item" data-num="35" data-dir="h" data-cells="7,9;8,9;9,9;10,9;11,9">
 <div class="clue-meta">
 <span class="clue-num">35.</span>
-<span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span><span class="t-pill">★ Tajenka</span>
+<span class="clue-len">(5 písm.)</span>
+<span class="diff-pill diff-medium">Střední</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">rod ptáků z čeledi vlhovití (Merops)</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>VLHA</strong></div>
+<div class="clue-text">protiklad ducha</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>HMOTA</strong></div>
 </li>
           </ul>
         </div>
@@ -1436,37 +1436,37 @@ body {
 <div class="clue-meta">
 <span class="clue-num">1.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span><span class="t-pill">★ Tajenka</span>
+<span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">posttraumatická stresová porucha</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>PTSP</strong></div>
+<div class="clue-text">leptání</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>LEPT</strong></div>
 </li>
             <li class="clue-item" data-num="2" data-dir="v" data-cells="2,1;2,2;2,3;2,4">
 <div class="clue-meta">
 <span class="clue-num">2.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-hard">Těžká</span>
 </div>
-<div class="clue-text">postava starořecké mytologie; bůh zuřivé války a válečného běsnění</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>ARES</strong></div>
+<div class="clue-text">město na severu Finska</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>OULU</strong></div>
 </li>
-            <li class="clue-item" data-num="3" data-dir="v" data-cells="3,1;3,2;3,3">
+            <li class="clue-item" data-num="3" data-dir="v" data-cells="3,1;3,2;3,3;3,4">
 <div class="clue-meta">
 <span class="clue-num">3.</span>
-<span class="clue-len">(3 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="clue-len">(4 písm.)</span>
+<span class="diff-pill diff-hard">Těžká</span>
 </div>
-<div class="clue-text">rakovina</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>RAK</strong></div>
+<div class="clue-text">skládací cylindr</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>KLAK</strong></div>
 </li>
-            <li class="clue-item" data-num="4" data-dir="v" data-cells="4,1;4,2;4,3;4,4;4,5">
+            <li class="clue-item" data-num="4" data-dir="v" data-cells="4,1;4,2;4,3">
 <div class="clue-meta">
 <span class="clue-num">4.</span>
-<span class="clue-len">(5 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="clue-len">(3 písm.)</span>
+<span class="diff-pill diff-easy">Snadná</span>
 </div>
-<div class="clue-text">nádoba určená pro vložení více podobných předmětů a náhodný výběr z nich losováním</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>OSUDÍ</strong></div>
+<div class="clue-text">elektronická evidence tržeb</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>EET</strong></div>
 </li>
             <li class="clue-item" data-num="5" data-dir="v" data-cells="5,1;5,2;5,3;5,4;5,5">
 <div class="clue-meta">
@@ -1474,26 +1474,26 @@ body {
 <span class="clue-len">(5 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">podrobovat nepříznivé kritice, zahrnovat hanou</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>HANĚT</strong></div>
+<div class="clue-text">pobyt v přírodě a táboření</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>TRAMP</strong></div>
 </li>
-            <li class="clue-item" data-num="6" data-dir="v" data-cells="7,1;7,2">
+            <li class="clue-item" data-num="6" data-dir="v" data-cells="7,1;7,2;7,3;7,4">
 <div class="clue-meta">
 <span class="clue-num">6.</span>
+<span class="clue-len">(4 písm.)</span>
+<span class="diff-pill diff-medium">Střední</span><span class="t-pill">Tajenka</span>
+</div>
+<div class="clue-text">Pohár mistrů evropských zemí</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>PMEZ</strong></div>
+</li>
+            <li class="clue-item" data-num="7" data-dir="v" data-cells="8,1;8,2">
+<div class="clue-meta">
+<span class="clue-num">7.</span>
 <span class="clue-len">(2 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">vkladní knížka</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>VK</strong></div>
-</li>
-            <li class="clue-item" data-num="7" data-dir="v" data-cells="8,1;8,2;8,3">
-<div class="clue-meta">
-<span class="clue-num">7.</span>
-<span class="clue-len">(3 písm.)</span>
-<span class="diff-pill diff-hard">Těžká</span>
-</div>
-<div class="clue-text">nizozemská dutá míra (jednotka objemu)</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>AAM</strong></div>
+<div class="clue-text">vyjadřuje obdiv, popř. překvapení</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>OO</strong></div>
 </li>
             <li class="clue-item" data-num="8" data-dir="v" data-cells="9,1;9,2;9,3;9,4;9,5">
 <div class="clue-meta">
@@ -1501,26 +1501,26 @@ body {
 <span class="clue-len">(5 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">rod rostlin z čeledi lipnicovitých</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>PROSO</strong></div>
+<div class="clue-text">dravý pták z čeledi Accipitridae</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>LUŇÁK</strong></div>
 </li>
             <li class="clue-item" data-num="9" data-dir="v" data-cells="10,1;10,2;10,3;10,4">
 <div class="clue-meta">
 <span class="clue-num">9.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span>
+<span class="diff-pill diff-hard">Těžká</span>
 </div>
-<div class="clue-text">automobil, vozidlo</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>KÁRA</strong></div>
+<div class="clue-text">(zastarale) vnější části pohlavního ústrojí žen nebo samic savců, vulva</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>OCHOD</strong></div>
 </li>
             <li class="clue-item" data-num="10" data-dir="v" data-cells="11,1;11,2;11,3;11,4">
 <div class="clue-meta">
 <span class="clue-num">10.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-easy">Snadná</span>
 </div>
-<div class="clue-text">aktivní násilná akce zaměřená proti někomu</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>ATAK</strong></div>
+<div class="clue-text">máma</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>MAMA</strong></div>
 </li>
             <li class="clue-item" data-num="14" data-dir="v" data-cells="6,3;6,4">
 <div class="clue-meta">
@@ -1528,98 +1528,98 @@ body {
 <span class="clue-len">(2 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">Dělnická strana</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>DS</strong></div>
+<div class="clue-text">národní park</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>NP</strong></div>
 </li>
-            <li class="clue-item" data-num="19" data-dir="v" data-cells="3,5;3,6;3,7;3,8;3,9">
+            <li class="clue-item" data-num="19" data-dir="v" data-cells="4,5;4,6;4,7;4,8;4,9">
 <div class="clue-meta">
 <span class="clue-num">19.</span>
 <span class="clue-len">(5 písm.)</span>
 <span class="diff-pill diff-easy">Snadná</span>
 </div>
-<div class="clue-text">na straně opačné k cíli pohybu</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>VZADU</strong></div>
+<div class="clue-text">pevný předmět ve tvaru plochého kvádru</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>PANEL</strong></div>
 </li>
-            <li class="clue-item" data-num="20" data-dir="v" data-cells="7,5;7,6;7,7">
+            <li class="clue-item" data-num="20" data-dir="v" data-cells="8,5;8,6;8,7;8,8;8,9">
 <div class="clue-meta">
 <span class="clue-num">20.</span>
-<span class="clue-len">(3 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span>
+<span class="clue-len">(5 písm.)</span>
+<span class="diff-pill diff-hard">Těžká</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">tedy, tak</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>PAK</strong></div>
+<div class="clue-text">souvislý acyklický graf</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>STROM</strong></div>
 </li>
-            <li class="clue-item" data-num="21" data-dir="v" data-cells="8,5;8,6;8,7;8,8;8,9">
+            <li class="clue-item" data-num="21" data-dir="v" data-cells="1,6;1,7;1,8;1,9">
 <div class="clue-meta">
 <span class="clue-num">21.</span>
-<span class="clue-len">(5 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span><span class="t-pill">★ Tajenka</span>
+<span class="clue-len">(4 písm.)</span>
+<span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">rod přízemních jehličnatých keřů, pěstovaných často v parcích</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>ZERAV</strong></div>
+<div class="clue-text">neovladatelné, až vražedné šílenství, chorobná zuřivost</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>AMOK</strong></div>
 </li>
-            <li class="clue-item" data-num="22" data-dir="v" data-cells="1,6;1,7;1,8;1,9">
+            <li class="clue-item" data-num="22" data-dir="v" data-cells="2,6;2,7;2,8;2,9">
 <div class="clue-meta">
 <span class="clue-num">22.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-medium">Střední</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">římský bůh války</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>MARS</strong></div>
+<div class="clue-text">měna některých států</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>LIRA</strong></div>
 </li>
-            <li class="clue-item" data-num="23" data-dir="v" data-cells="2,6;2,7;2,8;2,9">
+            <li class="clue-item" data-num="23" data-dir="v" data-cells="3,6;3,7;3,8;3,9">
 <div class="clue-meta">
 <span class="clue-num">23.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="diff-pill diff-easy">Snadná</span>
 </div>
-<div class="clue-text">psí ohon</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>PRUT</strong></div>
+<div class="clue-text">otec</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>FOTR</strong></div>
 </li>
-            <li class="clue-item" data-num="24" data-dir="v" data-cells="6,6;6,7;6,8;6,9">
+            <li class="clue-item" data-num="24" data-dir="v" data-cells="6,6;6,7">
 <div class="clue-meta">
 <span class="clue-num">24.</span>
-<span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span><span class="t-pill">★ Tajenka</span>
+<span class="clue-len">(2 písm.)</span>
+<span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">pohovka s opěradly, lenoška</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>SOFA</strong></div>
+<div class="clue-text">Česká spořitelna</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ČS</strong></div>
 </li>
-            <li class="clue-item" data-num="25" data-dir="v" data-cells="10,6;10,7;10,8;10,9">
+            <li class="clue-item" data-num="25" data-dir="v" data-cells="7,6;7,7;7,8;7,9">
 <div class="clue-meta">
 <span class="clue-num">25.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span><span class="t-pill">★ Tajenka</span>
+<span class="diff-pill diff-medium">Střední</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">nakloněná část terénu</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>SVAH</strong></div>
+<div class="clue-text">příslušník indické náboženské obce</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>SIKH</strong></div>
 </li>
-            <li class="clue-item" data-num="26" data-dir="v" data-cells="11,6;11,7;11,8;11,9">
+            <li class="clue-item" data-num="26" data-dir="v" data-cells="10,6;10,7;10,8;10,9">
 <div class="clue-meta">
 <span class="clue-num">26.</span>
 <span class="clue-len">(4 písm.)</span>
-<span class="diff-pill diff-easy">Snadná</span><span class="t-pill">★ Tajenka</span>
+<span class="diff-pill diff-hard">Těžká</span>
 </div>
-<div class="clue-text">babička</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>BÁBA</strong></div>
+<div class="clue-text">chcát</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ŠTÍT</strong></div>
 </li>
-            <li class="clue-item" data-num="28" data-dir="v" data-cells="4,7;4,8;4,9">
+            <li class="clue-item" data-num="27" data-dir="v" data-cells="11,6;11,7;11,8;11,9">
 <div class="clue-meta">
-<span class="clue-num">28.</span>
-<span class="clue-len">(3 písm.)</span>
-<span class="diff-pill diff-medium">Střední</span>
+<span class="clue-num">27.</span>
+<span class="clue-len">(4 písm.)</span>
+<span class="diff-pill diff-hard">Těžká</span><span class="t-pill">Tajenka</span>
 </div>
-<div class="clue-text">kód</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>KOD</strong></div>
+<div class="clue-text">jihoamerický hlodavec</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>PAKA</strong></div>
 </li>
             <li class="clue-item" data-num="30" data-dir="v" data-cells="9,7;9,8;9,9">
 <div class="clue-meta">
 <span class="clue-num">30.</span>
 <span class="clue-len">(3 písm.)</span>
-<span class="diff-pill diff-hard">Těžká</span>
+<span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">odlučovač ropných látek</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>ORL</strong></div>
+<div class="clue-text">uvozuje větu jednočlennou</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>ONO</strong></div>
 </li>
             <li class="clue-item" data-num="32" data-dir="v" data-cells="5,8;5,9">
 <div class="clue-meta">
@@ -1627,15 +1627,15 @@ body {
 <span class="clue-len">(2 písm.)</span>
 <span class="diff-pill diff-medium">Střední</span>
 </div>
-<div class="clue-text">Lidové noviny</div>
-<div class="clue-answer" style="display:none;">Odpověď: <strong>LN</strong></div>
+<div class="clue-text">vyjádření radosti</div>
+<div class="clue-answer" style="display:none;">Odpověď: <strong>LA</strong></div>
 </li>
           </ul>
         </div>
       </aside>
     </main>
     <footer class="app-footer">
-      <p>Vygenerováno pomocí <strong>CwdStudio Crossword Solver (cwgen)</strong> &bull; Slovník: Kaikki Czech Wiktionary</p>
+      <p>Vygenerováno pomocí <strong>cwgen</strong> &bull; Švédská křížovka</p>
     </footer>
   </div>
 
@@ -1897,7 +1897,7 @@ function toggleSolution() {
   const clueAnswers = document.querySelectorAll('.clue-answer');
 
   if (isSolutionVisible) {
-    btnText.textContent = 'Skrýt řešení (Hráčský mód)';
+    btnText.textContent = 'Skrýt řešení';
     document.querySelectorAll('.cell-input').forEach(input => {
       input.value = input.dataset.solution || '';
     });

@@ -3,132 +3,132 @@
   <Puzzle width="12" height="10" langLocaleId="cs">
     <Cells>
       <SymbolCell x="0" y="0" />
-      <ClueCell x="1" y="0" textHorizontal="" textVertical="posttraumatická stresová porucha" />
-      <ClueCell x="2" y="0" textHorizontal="" textVertical="postava starořecké mytologie; bůh zuřivé války a válečného běsnění" />
-      <ClueCell x="3" y="0" textHorizontal="" textVertical="rakovina" />
-      <ClueCell x="4" y="0" textHorizontal="" textVertical="nádoba určená pro vložení více podobných předmětů a náhodný výběr z nich losováním" />
-      <ClueCell x="5" y="0" textHorizontal="" textVertical="podrobovat nepříznivé kritice, zahrnovat hanou" />
+      <ClueCell x="1" y="0" textHorizontal="" textVertical="leptání" />
+      <ClueCell x="2" y="0" textHorizontal="" textVertical="město na severu Finska" />
+      <ClueCell x="3" y="0" textHorizontal="" textVertical="skládací cylindr" />
+      <ClueCell x="4" y="0" textHorizontal="" textVertical="elektronická evidence tržeb" />
+      <ClueCell x="5" y="0" textHorizontal="" textVertical="pobyt v přírodě a táboření" />
       <ClueCell x="6" y="0" textHorizontal="" textVertical="" />
-      <ClueCell x="7" y="0" textHorizontal="" textVertical="vkladní knížka" />
-      <ClueCell x="8" y="0" textHorizontal="" textVertical="nizozemská dutá míra (jednotka objemu)" />
-      <ClueCell x="9" y="0" textHorizontal="" textVertical="rod rostlin z čeledi lipnicovitých" />
-      <ClueCell x="10" y="0" textHorizontal="" textVertical="automobil, vozidlo" />
-      <ClueCell x="11" y="0" textHorizontal="" textVertical="aktivní násilná akce zaměřená proti někomu" />
-      <ClueCell x="0" y="1" textHorizontal="větevnatý kostní výrůstek na hlavě" textVertical="" />
-      <SolutionCell x="1" y="1" letter="P">
+      <ClueCell x="7" y="0" textHorizontal="" textVertical="Pohár mistrů evropských zemí" />
+      <ClueCell x="8" y="0" textHorizontal="" textVertical="vyjadřuje obdiv, popř. překvapení" />
+      <ClueCell x="9" y="0" textHorizontal="" textVertical="dravý pták z čeledi Accipitridae" />
+      <ClueCell x="10" y="0" textHorizontal="" textVertical="(zastarale) vnější části pohlavního ústrojí žen nebo samic savců, vulva" />
+      <ClueCell x="11" y="0" textHorizontal="" textVertical="máma" />
+      <ClueCell x="0" y="1" textHorizontal="délková míra" textVertical="" />
+      <BlankCell x="1" y="1" letter="L" />
+      <BlankCell x="2" y="1" letter="O" />
+      <BlankCell x="3" y="1" letter="K" />
+      <BlankCell x="4" y="1" letter="E" />
+      <BlankCell x="5" y="1" letter="T" />
+      <ClueCell x="6" y="1" textHorizontal="poražené stromy z polomu" textVertical="" />
+      <SolutionCell x="7" y="1" letter="P">
         <index>1</index>
       </SolutionCell>
-      <BlankCell x="2" y="1" letter="A" />
-      <BlankCell x="3" y="1" letter="R" />
-      <BlankCell x="4" y="1" letter="O" />
-      <BlankCell x="5" y="1" letter="H" />
-      <ClueCell x="6" y="1" textHorizontal="stroj, který čistí vodou stříkající pod vysokým tlakem" textVertical="" />
-      <BlankCell x="7" y="1" letter="V" />
-      <BlankCell x="8" y="1" letter="A" />
-      <BlankCell x="9" y="1" letter="P" />
-      <BlankCell x="10" y="1" letter="K" />
-      <BlankCell x="11" y="1" letter="A" />
-      <ClueCell x="0" y="2" textHorizontal="soubor míst na povrchu a spojnic mezi nimi, odpovídající pohybu určitého předmětu" textVertical="" />
-      <BlankCell x="1" y="2" letter="T" />
-      <BlankCell x="2" y="2" letter="R" />
-      <BlankCell x="3" y="2" letter="A" />
-      <BlankCell x="4" y="2" letter="S" />
-      <BlankCell x="5" y="2" letter="A" />
-      <ClueCell x="6" y="2" textHorizontal="jednotka ryzosti zlata" textVertical="Dělnická strana" />
-      <BlankCell x="7" y="2" letter="K" />
-      <BlankCell x="8" y="2" letter="A" />
-      <BlankCell x="9" y="2" letter="R" />
-      <BlankCell x="10" y="2" letter="Á" />
-      <BlankCell x="11" y="2" letter="T" />
-      <ClueCell x="0" y="3" textHorizontal="druhý hlas (zejména houslový)" textVertical="" />
-      <BlankCell x="1" y="3" letter="S" />
-      <BlankCell x="2" y="3" letter="E" />
-      <BlankCell x="3" y="3" letter="K" />
-      <BlankCell x="4" y="3" letter="U" />
-      <BlankCell x="5" y="3" letter="N" />
-      <BlankCell x="6" y="3" letter="D" />
-      <ClueCell x="7" y="3" textHorizontal="prodlení dlužníka nebo věřitele" textVertical="" />
-      <BlankCell x="8" y="3" letter="M" />
-      <BlankCell x="9" y="3" letter="O" />
-      <BlankCell x="10" y="3" letter="R" />
-      <BlankCell x="11" y="3" letter="A" />
-      <ClueCell x="0" y="4" textHorizontal="PlayStation" textVertical="" />
-      <BlankCell x="1" y="4" letter="P" />
-      <BlankCell x="2" y="4" letter="S" />
-      <ClueCell x="3" y="4" textHorizontal="silný strach o vlastní bezpečnost" textVertical="na straně opačné k cíli pohybu" />
-      <BlankCell x="4" y="4" letter="D" />
-      <BlankCell x="5" y="4" letter="Ě" />
-      <BlankCell x="6" y="4" letter="S" />
-      <ClueCell x="7" y="4" textHorizontal="" textVertical="tedy, tak" />
-      <ClueCell x="8" y="4" textHorizontal="pytel" textVertical="rod přízemních jehličnatých keřů, pěstovaných často v parcích" />
-      <BlankCell x="9" y="4" letter="S" />
-      <BlankCell x="10" y="4" letter="A" />
-      <BlankCell x="11" y="4" letter="K" />
+      <BlankCell x="8" y="1" letter="O" />
+      <BlankCell x="9" y="1" letter="L" />
+      <BlankCell x="10" y="1" letter="O" />
+      <BlankCell x="11" y="1" letter="M" />
+      <ClueCell x="0" y="2" textHorizontal="mužské příjmení" textVertical="" />
+      <BlankCell x="1" y="2" letter="E" />
+      <BlankCell x="2" y="2" letter="U" />
+      <BlankCell x="3" y="2" letter="L" />
+      <BlankCell x="4" y="2" letter="E" />
+      <BlankCell x="5" y="2" letter="R" />
+      <ClueCell x="6" y="2" textHorizontal="dvoukřídlý hmyz" textVertical="národní park" />
+      <BlankCell x="7" y="2" letter="M" />
+      <BlankCell x="8" y="2" letter="O" />
+      <BlankCell x="9" y="2" letter="U" />
+      <BlankCell x="10" y="2" letter="CH" />
+      <BlankCell x="11" y="2" letter="A" />
+      <ClueCell x="0" y="3" textHorizontal="vokativ singuláru substantiva platan" textVertical="" />
+      <BlankCell x="1" y="3" letter="P" />
+      <BlankCell x="2" y="3" letter="L" />
+      <BlankCell x="3" y="3" letter="A" />
+      <BlankCell x="4" y="3" letter="T" />
+      <BlankCell x="5" y="3" letter="A" />
+      <BlankCell x="6" y="3" letter="N" />
+      <BlankCell x="7" y="3" letter="E" />
+      <ClueCell x="8" y="3" textHorizontal="něm" textVertical="" />
+      <BlankCell x="9" y="3" letter="Ň" />
+      <BlankCell x="10" y="3" letter="O" />
+      <BlankCell x="11" y="3" letter="M" />
+      <ClueCell x="0" y="4" textHorizontal="mastná organická látka" textVertical="" />
+      <BlankCell x="1" y="4" letter="T" />
+      <BlankCell x="2" y="4" letter="U" />
+      <BlankCell x="3" y="4" letter="K" />
+      <ClueCell x="4" y="4" textHorizontal="mezinárodní poznávací značka" textVertical="pevný předmět ve tvaru plochého kvádru" />
+      <BlankCell x="5" y="4" letter="M" />
+      <BlankCell x="6" y="4" letter="P" />
+      <BlankCell x="7" y="4" letter="Z" />
+      <ClueCell x="8" y="4" textHorizontal="(zdrobněle) mužské křestní jméno Adolf" textVertical="souvislý acyklický graf" />
+      <BlankCell x="9" y="4" letter="Á" />
+      <BlankCell x="10" y="4" letter="D" />
+      <BlankCell x="11" y="4" letter="A" />
       <ClueCell x="0" y="5" textHorizontal="" textVertical="" />
-      <ClueCell x="1" y="5" textHorizontal="" textVertical="římský bůh války" />
-      <ClueCell x="2" y="5" textHorizontal="navíjet, svíjet" textVertical="psí ohon" />
-      <BlankCell x="3" y="5" letter="V" />
-      <BlankCell x="4" y="5" letter="Í" />
-      <BlankCell x="5" y="5" letter="T" />
-      <ClueCell x="6" y="5" textHorizontal="podnik zahraničního obchodu" textVertical="pohovka s opěradly, lenoška" />
-      <BlankCell x="7" y="5" letter="P" />
-      <BlankCell x="8" y="5" letter="Z" />
-      <BlankCell x="9" y="5" letter="O" />
-      <ClueCell x="10" y="5" textHorizontal="" textVertical="nakloněná část terénu" />
-      <ClueCell x="11" y="5" textHorizontal="" textVertical="babička" />
-      <ClueCell x="0" y="6" textHorizontal="mezinárodní poznávací značka" textVertical="" />
-      <BlankCell x="1" y="6" letter="M" />
-      <BlankCell x="2" y="6" letter="P" />
-      <BlankCell x="3" y="6" letter="Z" />
-      <ClueCell x="4" y="6" textHorizontal="" textVertical="kód" />
-      <ClueCell x="5" y="6" textHorizontal="Spojené arabské emiráty" textVertical="" />
-      <BlankCell x="6" y="6" letter="S" />
-      <BlankCell x="7" y="6" letter="A" />
-      <BlankCell x="8" y="6" letter="E" />
-      <ClueCell x="9" y="6" textHorizontal="Světová banka" textVertical="odlučovač ropných látek" />
-      <BlankCell x="10" y="6" letter="S" />
-      <BlankCell x="11" y="6" letter="B" />
-      <ClueCell x="0" y="7" textHorizontal="lihovina z kvašených hroznů ochucená anýzem pocházející z Blízkého východu, též araq" textVertical="" />
-      <BlankCell x="1" y="7" letter="A" />
-      <BlankCell x="2" y="7" letter="R" />
-      <BlankCell x="3" y="7" letter="A" />
-      <BlankCell x="4" y="7" letter="K" />
-      <ClueCell x="5" y="7" textHorizontal="název barvy" textVertical="Lidové noviny" />
-      <BlankCell x="6" y="7" letter="O" />
-      <BlankCell x="7" y="7" letter="K" />
+      <ClueCell x="1" y="5" textHorizontal="" textVertical="neovladatelné, až vražedné šílenství, chorobná zuřivost" />
+      <ClueCell x="2" y="5" textHorizontal="" textVertical="měna některých států" />
+      <ClueCell x="3" y="5" textHorizontal="polypropylen" textVertical="otec" />
+      <BlankCell x="4" y="5" letter="P" />
+      <BlankCell x="5" y="5" letter="P" />
+      <ClueCell x="6" y="5" textHorizontal="" textVertical="Česká spořitelna" />
+      <ClueCell x="7" y="5" textHorizontal="sportovní klub" textVertical="příslušník indické náboženské obce" />
+      <BlankCell x="8" y="5" letter="S" />
+      <BlankCell x="9" y="5" letter="K" />
+      <ClueCell x="10" y="5" textHorizontal="" textVertical="chcát" />
+      <ClueCell x="11" y="5" textHorizontal="" textVertical="jihoamerický hlodavec" />
+      <ClueCell x="0" y="6" textHorizontal="esparto" textVertical="" />
+      <BlankCell x="1" y="6" letter="A" />
+      <BlankCell x="2" y="6" letter="L" />
+      <BlankCell x="3" y="6" letter="F" />
+      <BlankCell x="4" y="6" letter="A" />
+      <ClueCell x="5" y="6" textHorizontal="Československá televize; československé televizní médium" textVertical="" />
+      <BlankCell x="6" y="6" letter="Č" />
+      <BlankCell x="7" y="6" letter="S" />
+      <BlankCell x="8" y="6" letter="T" />
+      <ClueCell x="9" y="6" textHorizontal="štěrkopísek" textVertical="uvozuje větu jednočlennou" />
+      <BlankCell x="10" y="6" letter="Š" />
+      <BlankCell x="11" y="6" letter="P" />
+      <ClueCell x="0" y="7" textHorizontal="těžký elektron" textVertical="" />
+      <BlankCell x="1" y="7" letter="M" />
+      <BlankCell x="2" y="7" letter="I" />
+      <BlankCell x="3" y="7" letter="O" />
+      <BlankCell x="4" y="7" letter="N" />
+      <ClueCell x="5" y="7" textHorizontal="sirotek" textVertical="vyjádření radosti" />
+      <BlankCell x="6" y="7" letter="S" />
+      <BlankCell x="7" y="7" letter="I" />
       <SolutionCell x="8" y="7" letter="R">
         <index>2</index>
       </SolutionCell>
       <BlankCell x="9" y="7" letter="O" />
-      <BlankCell x="10" y="7" letter="V" />
-      <BlankCell x="11" y="7" letter="Á" />
-      <ClueCell x="0" y="8" textHorizontal="mužské křestní jméno" textVertical="" />
-      <BlankCell x="1" y="8" letter="R" />
-      <BlankCell x="2" y="8" letter="U" />
-      <BlankCell x="3" y="8" letter="D" />
-      <BlankCell x="4" y="8" letter="O" />
+      <BlankCell x="10" y="7" letter="T" />
+      <BlankCell x="11" y="7" letter="A" />
+      <ClueCell x="0" y="8" textHorizontal="rozsudek" textVertical="" />
+      <BlankCell x="1" y="8" letter="O" />
+      <BlankCell x="2" y="8" letter="R" />
+      <BlankCell x="3" y="8" letter="T" />
+      <BlankCell x="4" y="8" letter="E" />
       <BlankCell x="5" y="8" letter="L" />
-      <BlankCell x="6" y="8" letter="F" />
-      <ClueCell x="7" y="8" textHorizontal="dítě" textVertical="" />
-      <BlankCell x="8" y="8" letter="A" />
-      <BlankCell x="9" y="8" letter="R" />
-      <BlankCell x="10" y="8" letter="A" />
-      <BlankCell x="11" y="8" letter="B" />
-      <ClueCell x="0" y="9" textHorizontal="svislý otvor v zemi, umožňující čerpání vody na povrch" textVertical="" />
-      <BlankCell x="1" y="9" letter="S" />
-      <BlankCell x="2" y="9" letter="T" />
-      <BlankCell x="3" y="9" letter="U" />
-      <BlankCell x="4" y="9" letter="D" />
-      <BlankCell x="5" y="9" letter="N" />
-      <SolutionCell x="6" y="9" letter="A">
+      <ClueCell x="6" y="8" textHorizontal="kůň" textVertical="" />
+      <BlankCell x="7" y="8" letter="K" />
+      <BlankCell x="8" y="8" letter="O" />
+      <BlankCell x="9" y="8" letter="N" />
+      <BlankCell x="10" y="8" letter="Í" />
+      <BlankCell x="11" y="8" letter="K" />
+      <ClueCell x="0" y="9" textHorizontal="ženské křestní jméno" textVertical="" />
+      <BlankCell x="1" y="9" letter="K" />
+      <SolutionCell x="2" y="9" letter="A">
         <index>3</index>
       </SolutionCell>
-      <ClueCell x="7" y="9" textHorizontal="rod ptáků z čeledi vlhovití (Merops)" textVertical="" />
-      <BlankCell x="8" y="9" letter="V" />
-      <BlankCell x="9" y="9" letter="L" />
-      <SolutionCell x="10" y="9" letter="H">
+      <BlankCell x="3" y="9" letter="R" />
+      <BlankCell x="4" y="9" letter="L" />
+      <BlankCell x="5" y="9" letter="A" />
+      <ClueCell x="6" y="9" textHorizontal="protiklad ducha" textVertical="" />
+      <SolutionCell x="7" y="9" letter="H">
         <index>4</index>
       </SolutionCell>
+      <BlankCell x="8" y="9" letter="M" />
+      <BlankCell x="9" y="9" letter="O" />
+      <BlankCell x="10" y="9" letter="T" />
       <SolutionCell x="11" y="9" letter="A">
         <index>5</index>
       </SolutionCell>

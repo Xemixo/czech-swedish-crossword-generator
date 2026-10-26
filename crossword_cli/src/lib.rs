@@ -13,13 +13,13 @@ use crossword_core::{
     DifficultyChoice, Grid, HtmlExportOptions, LayoutConfig, SolverConfig, TajenkaRequest,
 };
 
-/// Swedish Crossword Generator & CwdStudio Solver (cwgen)
+/// Swedish Crossword Generator & Solver (cwgen)
 #[derive(Parser, Debug)]
 #[command(
     name = "cwgen",
     author,
     version,
-    about = "Swedish Crossword (Švédská křížovka) procedural generator and CwdStudio XML solver"
+    about = "Swedish Crossword (Švédská křížovka) procedural generator and solver"
 )]
 pub struct CliArgs {
     /// Optional grid dimensions positional argument, e.g. "10x10", "12x10"
@@ -30,7 +30,7 @@ pub struct CliArgs {
     #[arg(value_name = "SECRET", index = 2)]
     pub secret_pos: Option<String>,
 
-    /// Path to CwdStudio input grid XML template (optional)
+    /// Path to input grid XML template (optional)
     #[arg(short = 't', long = "template")]
     pub template: Option<PathBuf>,
 
@@ -201,7 +201,7 @@ pub fn run_cli(args: CliArgs) -> Result<()> {
         let template_xml = fs::read_to_string(tmpl_path)
             .with_context(|| format!("Failed to read template XML file at '{}'", tmpl_path.display()))?;
         let grid = Grid::from_xml(&template_xml)
-            .with_context(|| format!("Failed to parse CwdStudio grid from '{}'", tmpl_path.display()))?;
+            .with_context(|| format!("Failed to parse grid from '{}'", tmpl_path.display()))?;
         let t_template = t0.elapsed();
         println!("  -> Template loaded in {:.2?}", t_template);
         (grid, false)
@@ -474,19 +474,21 @@ pub fn run_cli(args: CliArgs) -> Result<()> {
     let now = chrono::Local::now();
     let date_time_str = now.format("%Y-%m-%d_%H-%M-%S").to_string();
 
-    let (xml_path, html_path) = if let Some(ref custom_out) = args.output {
-        let hp = args.html.clone().unwrap_or_else(|| custom_out.with_extension("html"));
-        (custom_out.clone(), hp)
-    } else {
-        let mut counter = 1;
-        loop {
-            let base_name = format!("krizovka_{}x{}_{}_{:02}", grid.width, grid.height, date_time_str, counter);
-            let xp = output_dir.join(format!("{}.xml", base_name));
-            let hp = output_dir.join(format!("{}.html", base_name));
-            if !xp.exists() && !hp.exists() {
-                break (xp, hp);
+    let (xml_path, html_path) = match (&args.output, &args.html) {
+        (Some(op), Some(hp)) => (op.clone(), hp.clone()),
+        (Some(op), None) => (op.clone(), op.with_extension("html")),
+        (None, Some(hp)) => (hp.with_extension("xml"), hp.clone()),
+        (None, None) => {
+            let mut counter = 1;
+            loop {
+                let base_name = format!("krizovka_{}x{}_{}_{:02}", grid.width, grid.height, date_time_str, counter);
+                let xp = output_dir.join(format!("{}.xml", base_name));
+                let hp = output_dir.join(format!("{}.html", base_name));
+                if !xp.exists() && !hp.exists() {
+                    break (xp, hp);
+                }
+                counter += 1;
             }
-            counter += 1;
         }
     };
 
