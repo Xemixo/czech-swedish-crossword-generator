@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CwdStudio type="crossword" comment="" dictionary="cs_demo.dict">
+  <Puzzle width="10" height="10" langLocaleId="cs">
+    <Cells>
+      <SymbolCell x="0" y="0" />
+      <ClueCell x="1" y="0" textHorizontal="" textVertical="větevnatý kostní výrůstek na hlavě" />
+      <ClueCell x="2" y="0" textHorizontal="" textVertical="ženské křestní jméno" />
+      <ClueCell x="3" y="0" textHorizontal="" textVertical="elektronická evidence tržeb" />
+      <ClueCell x="4" y="0" textHorizontal="" textVertical="genitiv plurálu substantiva tára" />
+      <ClueCell x="5" y="0" textHorizontal="" textVertical="naznačuje rychlé odběhnutí" />
+      <ClueCell x="6" y="0" textHorizontal="" textVertical="" />
+      <ClueCell x="7" y="0" textHorizontal="" textVertical="důvěrná známost s někým" />
+      <ClueCell x="8" y="0" textHorizontal="" textVertical="obyvatel Itálie" />
+      <ClueCell x="9" y="0" textHorizontal="" textVertical="(žargon) skrýš používaná při geocachingu" />
+      <ClueCell x="0" y="1" textHorizontal="umělecké zobrazení truchlící madony pod křížem, která má na klíně mrtvé Kristovo tělo" textVertical="" />
+      <BlankCell x="1" y="1" letter="P" />
+      <BlankCell x="2" y="1" letter="I" />
+      <BlankCell x="3" y="1" letter="E" />
+      <BlankCell x="4" y="1" letter="T" />
+      <BlankCell x="5" y="1" letter="A" />
+      <ClueCell x="6" y="1" textHorizontal="zvuk výstřelu" textVertical="" />
+      <BlankCell x="7" y="1" letter="P" />
+      <BlankCell x="8" y="1" letter="I" />
+      <BlankCell x="9" y="1" letter="C" />
+      <ClueCell x="0" y="2" textHorizontal="oblast výskytu určitého druhu" textVertical="" />
+      <BlankCell x="1" y="2" letter="A" />
+      <BlankCell x="2" y="2" letter="R" />
+      <BlankCell x="3" y="2" letter="E" />
+      <BlankCell x="4" y="2" letter="Á" />
+      <BlankCell x="5" y="2" letter="L" />
+      <ClueCell x="6" y="2" textHorizontal="mužské křestní jméno" textVertical="" />
+      <BlankCell x="7" y="2" letter="O" />
+      <BlankCell x="8" y="2" letter="T" />
+      <BlankCell x="9" y="2" letter="A" />
+      <ClueCell x="0" y="3" textHorizontal="trend v módě, designu, hudbě apod., vracející se ke staršímu stylu" textVertical="" />
+      <BlankCell x="1" y="3" letter="R" />
+      <BlankCell x="2" y="3" letter="E" />
+      <BlankCell x="3" y="3" letter="T" />
+      <BlankCell x="4" y="3" letter="R" />
+      <BlankCell x="5" y="3" letter="O" />
+      <ClueCell x="6" y="3" textHorizontal="máchnutí" textVertical="mistrovství Evropy" />
+      <BlankCell x="7" y="3" letter="M" />
+      <BlankCell x="8" y="3" letter="A" />
+      <BlankCell x="9" y="3" letter="CH" />
+      <ClueCell x="0" y="4" textHorizontal="označuje osobu nebo věc mužského rodu, která vyplývá ze souvislostí" textVertical="" />
+      <BlankCell x="1" y="4" letter="O" />
+      <BlankCell x="2" y="4" letter="N" />
+      <ClueCell x="3" y="4" textHorizontal="" textVertical="české mužské příjmení" />
+      <ClueCell x="4" y="4" textHorizontal="způsobem, který není obvyklý v přírodě" textVertical="označuje osobu nebo věc ženského rodu, která vyplývá ze souvislostí" />
+      <BlankCell x="5" y="4" letter="U" />
+      <BlankCell x="6" y="4" letter="M" />
+      <BlankCell x="7" y="4" letter="Ě" />
+      <BlankCell x="8" y="4" letter="L" />
+      <BlankCell x="9" y="4" letter="E" />
+      <ClueCell x="0" y="5" textHorizontal="velké množství" textVertical="" />
+      <BlankCell x="1" y="5" letter="H" />
+      <BlankCell x="2" y="5" letter="A" />
+      <BlankCell x="3" y="5" letter="F" />
+      <BlankCell x="4" y="5" letter="O" />
+      <ClueCell x="5" y="5" textHorizontal="název hlásky a písmene R" textVertical="bezpilotní letoun" />
+      <BlankCell x="6" y="5" letter="E" />
+      <BlankCell x="7" y="5" letter="R" />
+      <ClueCell x="8" y="5" textHorizontal="" textVertical="mládě kosa" />
+      <ClueCell x="9" y="5" textHorizontal="" textVertical="sušenka" />
+      <ClueCell x="0" y="6" textHorizontal="" textVertical="" />
+      <ClueCell x="1" y="6" textHorizontal="" textVertical="nezištně převedená, věnovaná věc" />
+      <ClueCell x="2" y="6" textHorizontal="obyvatel Indie" textVertical="přímka souměrnosti obrazce, tělesa apod." />
+      <BlankCell x="3" y="6" letter="I" />
+      <BlankCell x="4" y="6" letter="N" />
+      <BlankCell x="5" y="6" letter="D" />
+      <SymbolCell x="6" y="6" />
+      <ClueCell x="7" y="6" textHorizontal="kuchyňský kout" textVertical="jednotka jasu" />
+      <BlankCell x="8" y="6" letter="K" />
+      <BlankCell x="9" y="6" letter="K" />
+      <ClueCell x="0" y="7" textHorizontal="měna některých států" textVertical="" />
+      <BlankCell x="1" y="7" letter="D" />
+      <BlankCell x="2" y="7" letter="O" />
+      <SolutionCell x="3" y="7" letter="L">
+        <index>1</index>
+      </SolutionCell>
+      <BlankCell x="4" y="7" letter="A" />
+      <BlankCell x="5" y="7" letter="R" />
+      <ClueCell x="6" y="7" textHorizontal="mužské křestní jméno" textVertical="odkazuje k věci rodu středního, o které je řeč nebo která vyplývá ze souvislostí" />
+      <BlankCell x="7" y="7" letter="N" />
+      <BlankCell x="8" y="7" letter="O" />
+      <BlankCell x="9" y="7" letter="E" />
+      <ClueCell x="0" y="8" textHorizontal="vyjadřuje menší míru jistoty" textVertical="" />
+      <BlankCell x="1" y="8" letter="A" />
+      <BlankCell x="2" y="8" letter="S" />
+      <BlankCell x="3" y="8" letter="I" />
+      <ClueCell x="4" y="8" textHorizontal="přenesení barvy z jedné plochy na druhou" textVertical="" />
+      <BlankCell x="5" y="8" letter="O" />
+      <BlankCell x="6" y="8" letter="T" />
+      <BlankCell x="7" y="8" letter="I" />
+      <BlankCell x="8" y="8" letter="S" />
+      <BlankCell x="9" y="8" letter="K" />
+      <ClueCell x="0" y="9" textHorizontal="černý kůň" textVertical="" />
+      <BlankCell x="1" y="9" letter="R" />
+      <BlankCell x="2" y="9" letter="A" />
+      <BlankCell x="3" y="9" letter="P" />
+      <ClueCell x="4" y="9" textHorizontal="navzájem spojené listy papíru pro psaní poznámek či textu, obvykle v pevných deskách" textVertical="" />
+      <BlankCell x="5" y="9" letter="N" />
+      <BlankCell x="6" y="9" letter="O" />
+      <BlankCell x="7" y="9" letter="T" />
+      <SolutionCell x="8" y="9" letter="E">
+        <index>2</index>
+      </SolutionCell>
+      <SolutionCell x="9" y="9" letter="S">
+        <index>3</index>
+      </SolutionCell>
+    </Cells>
+    <NumberTable word="" table="" />
+    <Style shapeBorders="true" cellSpacing="10.0" crosswordBorder="false" crosswordBorderColor="cmyk(0,0,0,100)" crosswordBorderStroke="basic(5.0,1,1)" name="default" multiLingualName="true" defaultProfile="true">
+      <textParams horizontalTextMargin="0.05" verticalTextMargin="0.05" shrinkFont="true" shrinkFontLimit="2.5" typographicTouch="true" textHyphenation="true" horizontalTextAlign="2" verticalTextAlign="5" lineSpacingCoef="1.0" tracking="0.0" kerning="true" defaultProfile="false" />
+      <clueCellParams middleLineStroke="basic(2.0,0,1)" middleLineColor="cmyk(0,0,0,100)" fontColor="cmyk(0,0,0,100)" font="font(arial,0,12.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <blankCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,64.0)" bgColor="cmyk(0,0,0,0)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(1.0,1,1)" defaultProfile="false" />
+      <helpCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,12.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <textCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,20.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <solutionCellParams drawSolutionArrow="false" drawSolutionArrowStroke="false" solutionArrowColor="cmyk(0,0,0,100)" arrowSize="0.25" fontColor="cmyk(0,0,0,100)" font="font(arial,1,64.0)" bgColor="cmyk(0,4,42,6)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(1.0,1,1)" defaultProfile="false">
+        <index font="font(arial,0,14.0)" color="rgb(0,0,0)" showIndexes="true" showCircle="true" circleStroke="basic(1.0,2,0)" circleSize="12" posX="18" posY="18" defaultProfile="false" />
+      </solutionCellParams>
+      <symbolCellParams glyphCode="153" text="" font="font(wingdings,1,80.0)" color="cmyk(0,0,0,80)" imageFile="" type="1" imageSize="90" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <wordsParams drawArrows="false" drawArrowStroke="false" arrowColor="cmyk(0,0,0,100)" arrowWidth="0.15" arrowHeight="0.15" defaultProfile="false" />
+      <numberCwdParams numberFont="font(Arial,0,20.0)" numberColor="rgb(0,0,0)" tableNumberColor="rgb(0,0,0)" tableNumberFont="font(Arial,0,28.0)" tableLetterColor="rgb(0,0,128)" tableLetterFont="font(Arial,1,38.0)" cellStrokeColor="rgb(0,0,0)" cellFill="rgb(255,255,255)" cellStroke="basic(2.0,1,1)" verticalMargin="6" horizontalMargin="10" cellWidth="50" cellHeight="80" cellMargin="20" position="1" defaultProfile="false" />
+    </Style>
+  </Puzzle>
+  <Form dictionary="cs_demo.dict" />
+</CwdStudio>

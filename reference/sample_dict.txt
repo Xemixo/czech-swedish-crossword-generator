@@ -1,0 +1,23 @@
+AUTO|Osobní motorové vozidlo
+PES|Domácí čtyřnohý mazlíček
+KOČKA|Domácí šelma
+CHATA|Víkendové stavení
+CHLEB|Základní pečivo
+LES|Hustý porost stromů
+OKO|Zrakový orgán
+VODA|Čirá životodárná kapalina
+KACHNA|Vodní pták
+PRAHA|Hlavní město ČR
+STŮL|Čtyřnohý kus nábytku
+ŘEKA|Přírodní vodní tok
+MOST|Stavba přes překážku
+DŮM|Obytná stavba
+LÉTO|Nejteplejší roční období
+ZIMA|Nejchladnější roční období
+HRAD|Středověké panské sídlo
+STROM|Dřevina s kmenem a korunou
+KŮŇ|Lichokopytník k jízdě
+DEN|Opak noci
+NOC|Čas na spánek
+OCHOTA|Vstřícnost a ochota pomoci
+PLACHTA|Látka na lodi

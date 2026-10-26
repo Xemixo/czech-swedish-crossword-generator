@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CwdStudio type="crossword" comment="" dictionary="cs_demo.dict">
+  <Puzzle width="15" height="15" langLocaleId="cs">
+    <Cells>
+      <SymbolCell x="0" y="0" />
+      <ClueCell x="1" y="0" textHorizontal="" textVertical="aplikace (do mobilního telefonu)" />
+      <ClueCell x="2" y="0" textHorizontal="" textVertical="změna nebo přidání nového významu vlivem jiného jazyka" />
+      <ClueCell x="3" y="0" textHorizontal="" textVertical="druh sportovní obuvi vhodný pro atlety" />
+      <ClueCell x="4" y="0" textHorizontal="" textVertical="adenosintrifosfát" />
+      <ClueCell x="5" y="0" textHorizontal="" textVertical="" />
+      <ClueCell x="6" y="0" textHorizontal="" textVertical="měřidlo délky" />
+      <ClueCell x="7" y="0" textHorizontal="" textVertical="mužské křestní jméno" />
+      <ClueCell x="8" y="0" textHorizontal="" textVertical="vyjadřuje poměr stupňovací" />
+      <ClueCell x="9" y="0" textHorizontal="" textVertical="elektroencefalogram" />
+      <ClueCell x="10" y="0" textHorizontal="" textVertical="" />
+      <ClueCell x="11" y="0" textHorizontal="" textVertical="v daném okamžiku" />
+      <ClueCell x="12" y="0" textHorizontal="" textVertical="české mužské příjmení" />
+      <ClueCell x="13" y="0" textHorizontal="" textVertical="obnovitelný zdroj energie" />
+      <ClueCell x="14" y="0" textHorizontal="" textVertical="genitiv množného čísla podstatného jména hora, nebo pomnožného hory" />
+      <ClueCell x="0" y="1" textHorizontal="úřední spisy" textVertical="" />
+      <BlankCell x="1" y="1" letter="A" />
+      <BlankCell x="2" y="1" letter="K" />
+      <BlankCell x="3" y="1" letter="T" />
+      <BlankCell x="4" y="1" letter="A" />
+      <ClueCell x="5" y="1" textHorizontal="Mezinárodní agentura pro atomovou energii" textVertical="" />
+      <BlankCell x="6" y="1" letter="M" />
+      <BlankCell x="7" y="1" letter="A" />
+      <BlankCell x="8" y="1" letter="A" />
+      <BlankCell x="9" y="1" letter="E" />
+      <ClueCell x="10" y="1" textHorizontal="rod dřevin z čeledi růžovitých" textVertical="" />
+      <SolutionCell x="11" y="1" letter="H">
+        <index>1</index>
+      </SolutionCell>
+      <BlankCell x="12" y="1" letter="L" />
+      <BlankCell x="13" y="1" letter="O" />
+      <BlankCell x="14" y="1" letter="H" />
+      <ClueCell x="0" y="2" textHorizontal="notový zápis melodie pro jeden hudební nástroj ve vícehlasé skladbě" textVertical="" />
+      <BlankCell x="1" y="2" letter="P" />
+      <BlankCell x="2" y="2" letter="A" />
+      <BlankCell x="3" y="2" letter="R" />
+      <BlankCell x="4" y="2" letter="T" />
+      <ClueCell x="5" y="2" textHorizontal="řeka v severozápadním Německu, přítok Severního moře" textVertical="Evropské hospodářské společenství" />
+      <BlankCell x="6" y="2" letter="E" />
+      <BlankCell x="7" y="2" letter="M" />
+      <BlankCell x="8" y="2" letter="Ž" />
+      <BlankCell x="9" y="2" letter="E" />
+      <ClueCell x="10" y="2" textHorizontal="typický řecký anýzový alkoholický nápoj" textVertical="název hlásky a písmene R" />
+      <BlankCell x="11" y="2" letter="O" />
+      <BlankCell x="12" y="2" letter="U" />
+      <BlankCell x="13" y="2" letter="Z" />
+      <BlankCell x="14" y="2" letter="O" />
+      <ClueCell x="0" y="3" textHorizontal="část končetiny některých korýšů či pavoukovců připomínající kleště či zahradnické nůžky" textVertical="" />
+      <BlankCell x="1" y="3" letter="K" />
+      <BlankCell x="2" y="3" letter="L" />
+      <BlankCell x="3" y="3" letter="E" />
+      <BlankCell x="4" y="3" letter="P" />
+      <BlankCell x="5" y="3" letter="E" />
+      <BlankCell x="6" y="3" letter="T" />
+      <BlankCell x="7" y="3" letter="O" />
+      <ClueCell x="8" y="3" textHorizontal="sociální a kulturní role spojené s pohlavím" textVertical="rod přežvýkavých savců z řádu sudokopytníků" />
+      <BlankCell x="9" y="3" letter="G" />
+      <BlankCell x="10" y="3" letter="E" />
+      <BlankCell x="11" y="3" letter="N" />
+      <BlankCell x="12" y="3" letter="D" />
+      <BlankCell x="13" y="3" letter="E" />
+      <BlankCell x="14" y="3" letter="R" />
+      <ClueCell x="0" y="4" textHorizontal="úřední listina" textVertical="" />
+      <BlankCell x="1" y="4" letter="A" />
+      <BlankCell x="2" y="4" letter="K" />
+      <BlankCell x="3" y="4" letter="T" />
+      <ClueCell x="4" y="4" textHorizontal="pár, několik" textVertical="antibiotikum" />
+      <BlankCell x="5" y="4" letter="H" />
+      <BlankCell x="6" y="4" letter="R" />
+      <BlankCell x="7" y="4" letter="S" />
+      <BlankCell x="8" y="4" letter="T" />
+      <ClueCell x="9" y="4" textHorizontal="hrdina" textVertical="pravoslavný kněz" />
+      <BlankCell x="10" y="4" letter="R" />
+      <BlankCell x="11" y="4" letter="E" />
+      <BlankCell x="12" y="4" letter="K" />
+      <ClueCell x="13" y="4" textHorizontal="" textVertical="rabín" />
+      <ClueCell x="14" y="4" textHorizontal="" textVertical="oblast tmavší než okolí" />
+      <ClueCell x="0" y="5" textHorizontal="" textVertical="" />
+      <ClueCell x="1" y="5" textHorizontal="" textVertical="skupina služebníků nebo osob pracujících v určitém hospodářství, zejména na venkově" />
+      <ClueCell x="2" y="5" textHorizontal="nemilosrdný člověk" textVertical="vyjadřuje vhodnost entity z něčího hlediska" />
+      <BlankCell x="3" y="5" letter="R" />
+      <BlankCell x="4" y="5" letter="A" />
+      <BlankCell x="5" y="5" letter="S" />
+      <ClueCell x="6" y="5" textHorizontal="" textVertical="ruce" />
+      <ClueCell x="7" y="5" textHorizontal="Univerzita Palackého v Olomouci" textVertical="ruská asijská řeka" />
+      <BlankCell x="8" y="5" letter="U" />
+      <BlankCell x="9" y="5" letter="P" />
+      <ClueCell x="10" y="5" textHorizontal="římský bůh války" textVertical="největší japonský ostrov" />
+      <BlankCell x="11" y="5" letter="M" />
+      <BlankCell x="12" y="5" letter="A" />
+      <BlankCell x="13" y="5" letter="R" />
+      <BlankCell x="14" y="5" letter="S" />
+      <ClueCell x="0" y="6" textHorizontal="snaha dělat něco rychle" textVertical="" />
+      <BlankCell x="1" y="6" letter="CH" />
+      <BlankCell x="2" y="6" letter="V" />
+      <BlankCell x="3" y="6" letter="A" />
+      <BlankCell x="4" y="6" letter="T" />
+      <ClueCell x="5" y="6" textHorizontal="podrod ptáků z čeledi sokolovitých" textVertical="stará pozemková míra" />
+      <BlankCell x="6" y="6" letter="R" />
+      <BlankCell x="7" y="6" letter="A" />
+      <BlankCell x="8" y="6" letter="R" />
+      <BlankCell x="9" y="6" letter="O" />
+      <BlankCell x="10" y="6" letter="H" />
+      <ClueCell x="11" y="6" textHorizontal="" textVertical="(domácky) Leontýna" />
+      <ClueCell x="12" y="6" textHorizontal="bývalá SPZ města Praha" textVertical="hluboký ženský nebo chlapecký hlas" />
+      <BlankCell x="13" y="6" letter="A" />
+      <BlankCell x="14" y="6" letter="T" />
+      <ClueCell x="0" y="7" textHorizontal="vyjadřuje nudu" textVertical="" />
+      <BlankCell x="1" y="7" letter="A" />
+      <BlankCell x="2" y="7" letter="H" />
+      <ClueCell x="3" y="7" textHorizontal="rušivá složka o nižší frekvenci než jí rušený signál" textVertical="čajová růže" />
+      <BlankCell x="4" y="7" letter="B" />
+      <BlankCell x="5" y="7" letter="R" />
+      <BlankCell x="6" y="7" letter="U" />
+      <BlankCell x="7" y="7" letter="M" />
+      <ClueCell x="8" y="7" textHorizontal="oblast podél řeky Labe" textVertical="hlavní město Jemenu" />
+      <BlankCell x="9" y="7" letter="P" />
+      <BlankCell x="10" y="7" letter="O" />
+      <BlankCell x="11" y="7" letter="L" />
+      <BlankCell x="12" y="7" letter="A" />
+      <BlankCell x="13" y="7" letter="B" />
+      <BlankCell x="14" y="7" letter="Í" />
+      <ClueCell x="0" y="8" textHorizontal="středoškolská odborná činnost" textVertical="" />
+      <BlankCell x="1" y="8" letter="S" />
+      <BlankCell x="2" y="8" letter="O" />
+      <BlankCell x="3" y="8" letter="Č" />
+      <ClueCell x="4" y="8" textHorizontal="poškození kůry stromů zvěří, která ji okousala" textVertical="" />
+      <BlankCell x="5" y="8" letter="O" />
+      <BlankCell x="6" y="8" letter="K" />
+      <BlankCell x="7" y="8" letter="U" />
+      <BlankCell x="8" y="8" letter="S" />
+      <ClueCell x="9" y="8" textHorizontal="náležící Nele" textVertical="" />
+      <BlankCell x="10" y="8" letter="N" />
+      <BlankCell x="11" y="8" letter="E" />
+      <BlankCell x="12" y="8" letter="L" />
+      <BlankCell x="13" y="8" letter="I" />
+      <BlankCell x="14" y="8" letter="N" />
+      <ClueCell x="0" y="9" textHorizontal="programovací jazyk" textVertical="" />
+      <BlankCell x="1" y="9" letter="A" />
+      <BlankCell x="2" y="9" letter="D" />
+      <BlankCell x="3" y="9" letter="A" />
+      <ClueCell x="4" y="9" textHorizontal="jedno ze souhvězdí" textVertical="karetní hra" />
+      <BlankCell x="5" y="9" letter="L" />
+      <BlankCell x="6" y="9" letter="Y" />
+      <BlankCell x="7" y="9" letter="R" />
+      <BlankCell x="8" y="9" letter="A" />
+      <ClueCell x="9" y="9" textHorizontal="oblečení, šaty" textVertical="Kamarádi táborových ohňů" />
+      <BlankCell x="10" y="9" letter="Š" />
+      <BlankCell x="11" y="9" letter="A" />
+      <BlankCell x="12" y="9" letter="T" />
+      <ClueCell x="13" y="9" textHorizontal="" textVertical="pleva" />
+      <ClueCell x="14" y="9" textHorizontal="" textVertical="děti" />
+      <ClueCell x="0" y="10" textHorizontal="" textVertical="" />
+      <ClueCell x="1" y="10" textHorizontal="" textVertical="blesk" />
+      <ClueCell x="2" y="10" textHorizontal="domácká podoba anglického křestního jména Joseph" textVertical="náležící Lee" />
+      <BlankCell x="3" y="10" letter="J" />
+      <BlankCell x="4" y="10" letter="O" />
+      <BlankCell x="5" y="10" letter="E" />
+      <ClueCell x="6" y="10" textHorizontal="" textVertical="související se sobem" />
+      <ClueCell x="7" y="10" textHorizontal="Nejvyšší kontrolní úřad" textVertical="(též skrzlevá) odpovídá předložce kvůli" />
+      <BlankCell x="8" y="10" letter="N" />
+      <BlankCell x="9" y="10" letter="K" />
+      <BlankCell x="10" y="10" letter="Ú" />
+      <ClueCell x="11" y="10" textHorizontal="" textVertical="středoevropská řeka" />
+      <ClueCell x="12" y="10" textHorizontal="polypropylen" textVertical="naklíčená a usušená zrna obilovin" />
+      <BlankCell x="13" y="10" letter="P" />
+      <BlankCell x="14" y="10" letter="P" />
+      <ClueCell x="0" y="11" textHorizontal="ocasatý obojživelník podobný ještěrce" textVertical="" />
+      <BlankCell x="1" y="11" letter="M" />
+      <BlankCell x="2" y="11" letter="L" />
+      <BlankCell x="3" y="11" letter="O" />
+      <BlankCell x="4" y="11" letter="K" />
+      <ClueCell x="5" y="11" textHorizontal="sát" textVertical="jednotka hlasitosti zvuku" />
+      <BlankCell x="6" y="11" letter="S" />
+      <BlankCell x="7" y="11" letter="S" />
+      <BlankCell x="8" y="11" letter="Á" />
+      <BlankCell x="9" y="11" letter="T" />
+      <ClueCell x="10" y="11" textHorizontal="hlavní město Norska" textVertical="mezinárodní poznávací značka" />
+      <BlankCell x="11" y="11" letter="O" />
+      <BlankCell x="12" y="11" letter="S" />
+      <BlankCell x="13" y="11" letter="L" />
+      <BlankCell x="14" y="11" letter="O" />
+      <ClueCell x="0" y="12" textHorizontal="levá strana lodi" textVertical="" />
+      <BlankCell x="1" y="12" letter="L" />
+      <BlankCell x="2" y="12" letter="E" />
+      <SolutionCell x="3" y="12" letter="V">
+        <index>2</index>
+      </SolutionCell>
+      <BlankCell x="4" y="12" letter="O" />
+      <BlankCell x="5" y="12" letter="B" />
+      <BlankCell x="6" y="12" letter="O" />
+      <BlankCell x="7" y="12" letter="K" />
+      <ClueCell x="8" y="12" textHorizontal="ztratit vědomí, svalit se na zem" textVertical="vyjadřuje obdiv, popř. překvapení" />
+      <BlankCell x="9" y="12" letter="O" />
+      <BlankCell x="10" y="12" letter="M" />
+      <BlankCell x="11" y="12" letter="D" />
+      <BlankCell x="12" y="12" letter="L" />
+      <BlankCell x="13" y="12" letter="Í" />
+      <BlankCell x="14" y="12" letter="T" />
+      <ClueCell x="0" y="13" textHorizontal="mužské křestní jméno Nikola" textVertical="" />
+      <BlankCell x="1" y="13" letter="N" />
+      <BlankCell x="2" y="13" letter="I" />
+      <BlankCell x="3" y="13" letter="K" />
+      <ClueCell x="4" y="13" textHorizontal="španělská řeka" textVertical="" />
+      <BlankCell x="5" y="13" letter="E" />
+      <BlankCell x="6" y="13" letter="B" />
+      <BlankCell x="7" y="13" letter="R" />
+      <BlankCell x="8" y="13" letter="O" />
+      <ClueCell x="9" y="13" textHorizontal="pravicově" textVertical="" />
+      <BlankCell x="10" y="13" letter="P" />
+      <BlankCell x="11" y="13" letter="R" />
+      <BlankCell x="12" y="13" letter="A" />
+      <BlankCell x="13" y="13" letter="V" />
+      <SolutionCell x="14" y="13" letter="Ě">
+        <index>3</index>
+      </SolutionCell>
+      <ClueCell x="0" y="14" textHorizontal="označuje osobu nebo věc ženského rodu, která vyplývá ze souvislostí" textVertical="" />
+      <BlankCell x="1" y="14" letter="O" />
+      <BlankCell x="2" y="14" letter="N" />
+      <BlankCell x="3" y="14" letter="A" />
+      <ClueCell x="4" y="14" textHorizontal="lízátko" textVertical="" />
+      <BlankCell x="5" y="14" letter="L" />
+      <BlankCell x="6" y="14" letter="Í" />
+      <SolutionCell x="7" y="14" letter="Z">
+        <index>4</index>
+      </SolutionCell>
+      <BlankCell x="8" y="14" letter="O" />
+      <ClueCell x="9" y="14" textHorizontal="město v Chorvatsku" textVertical="" />
+      <BlankCell x="10" y="14" letter="Z" />
+      <BlankCell x="11" y="14" letter="A" />
+      <SolutionCell x="12" y="14" letter="D">
+        <index>5</index>
+      </SolutionCell>
+      <SolutionCell x="13" y="14" letter="A">
+        <index>6</index>
+      </SolutionCell>
+      <BlankCell x="14" y="14" letter="R" />
+    </Cells>
+    <NumberTable word="" table="" />
+    <Style shapeBorders="true" cellSpacing="10.0" crosswordBorder="false" crosswordBorderColor="cmyk(0,0,0,100)" crosswordBorderStroke="basic(5.0,1,1)" name="default" multiLingualName="true" defaultProfile="true">
+      <textParams horizontalTextMargin="0.05" verticalTextMargin="0.05" shrinkFont="true" shrinkFontLimit="2.5" typographicTouch="true" textHyphenation="true" horizontalTextAlign="2" verticalTextAlign="5" lineSpacingCoef="1.0" tracking="0.0" kerning="true" defaultProfile="false" />
+      <clueCellParams middleLineStroke="basic(2.0,0,1)" middleLineColor="cmyk(0,0,0,100)" fontColor="cmyk(0,0,0,100)" font="font(arial,0,12.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <blankCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,64.0)" bgColor="cmyk(0,0,0,0)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(1.0,1,1)" defaultProfile="false" />
+      <helpCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,12.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <textCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,20.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <solutionCellParams drawSolutionArrow="false" drawSolutionArrowStroke="false" solutionArrowColor="cmyk(0,0,0,100)" arrowSize="0.25" fontColor="cmyk(0,0,0,100)" font="font(arial,1,64.0)" bgColor="cmyk(0,4,42,6)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(1.0,1,1)" defaultProfile="false">
+        <index font="font(arial,0,14.0)" color="rgb(0,0,0)" showIndexes="true" showCircle="true" circleStroke="basic(1.0,2,0)" circleSize="12" posX="18" posY="18" defaultProfile="false" />
+      </solutionCellParams>
+      <symbolCellParams glyphCode="153" text="" font="font(wingdings,1,80.0)" color="cmyk(0,0,0,80)" imageFile="" type="1" imageSize="90" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <wordsParams drawArrows="false" drawArrowStroke="false" arrowColor="cmyk(0,0,0,100)" arrowWidth="0.15" arrowHeight="0.15" defaultProfile="false" />
+      <numberCwdParams numberFont="font(Arial,0,20.0)" numberColor="rgb(0,0,0)" tableNumberColor="rgb(0,0,0)" tableNumberFont="font(Arial,0,28.0)" tableLetterColor="rgb(0,0,128)" tableLetterFont="font(Arial,1,38.0)" cellStrokeColor="rgb(0,0,0)" cellFill="rgb(255,255,255)" cellStroke="basic(2.0,1,1)" verticalMargin="6" horizontalMargin="10" cellWidth="50" cellHeight="80" cellMargin="20" position="1" defaultProfile="false" />
+    </Style>
+  </Puzzle>
+  <Form dictionary="cs_demo.dict" />
+</CwdStudio>

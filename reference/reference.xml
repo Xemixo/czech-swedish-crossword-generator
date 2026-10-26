@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CwdStudio type="crossword" comment="" dictionary="cs_demo.dict">
+  <Puzzle width="8" height="8" langLocaleId="cs">
+    <Cells>
+      <BlankCell x="6" y="7" />
+      <ClueCell x="4" y="0" textHorizontal="" textVertical="" />
+      <BlankCell x="6" y="4" />
+      <BlankCell x="6" y="2" />
+      <BlankCell x="1" y="5" />
+      <BlankCell x="2" y="5" />
+      <ClueCell x="2" y="0" textHorizontal="" textVertical="" />
+      <BlankCell x="5" y="2" />
+      <BlankCell x="1" y="1" />
+      <BlankCell x="6" y="1" />
+      <ClueCell x="0" y="3" textHorizontal="" textVertical="" />
+      <BlankCell x="4" y="7" />
+      <BlankCell x="7" y="5" />
+      <ClueCell x="1" y="0" textHorizontal="" textVertical="" />
+      <BlankCell x="3" y="3" />
+      <BlankCell x="2" y="4" />
+      <BlankCell x="3" y="6" />
+      <ClueCell x="3" y="0" textHorizontal="" textVertical="" />
+      <ClueCell x="0" y="1" textHorizontal="" textVertical="" />
+      <BlankCell x="5" y="7" />
+      <BlankCell x="1" y="6" />
+      <BlankCell x="3" y="4" />
+      <BlankCell x="7" y="7" />
+      <ClueCell x="6" y="0" textHorizontal="" textVertical="" />
+      <BlankCell x="4" y="1" />
+      <ClueCell x="0" y="7" textHorizontal="" textVertical="" />
+      <BlankCell x="1" y="4" />
+      <BlankCell x="5" y="3" />
+      <BlankCell x="2" y="7" />
+      <ClueCell x="0" y="6" textHorizontal="" textVertical="" />
+      <BlankCell x="4" y="5" />
+      <BlankCell x="1" y="7" />
+      <BlankCell x="3" y="1" />
+      <BlankCell x="4" y="3" />
+      <SymbolCell x="0" y="0" />
+      <BlankCell x="1" y="3" />
+      <BlankCell x="7" y="2" />
+      <BlankCell x="4" y="4" />
+      <BlankCell x="5" y="4" />
+      <ClueCell x="5" y="0" textHorizontal="" textVertical="" />
+      <ClueCell x="0" y="5" textHorizontal="" textVertical="" />
+      <BlankCell x="7" y="6" />
+      <BlankCell x="4" y="2" />
+      <BlankCell x="7" y="1" />
+      <BlankCell x="2" y="2" />
+      <BlankCell x="7" y="3" />
+      <BlankCell x="6" y="5" />
+      <ClueCell x="7" y="0" textHorizontal="" textVertical="" />
+      <BlankCell x="6" y="3" />
+      <BlankCell x="1" y="2" />
+      <BlankCell x="4" y="6" />
+      <BlankCell x="7" y="4" />
+      <BlankCell x="3" y="5" />
+      <BlankCell x="6" y="6" />
+      <BlankCell x="3" y="7" />
+      <BlankCell x="2" y="1" />
+      <BlankCell x="2" y="3" />
+      <ClueCell x="0" y="2" textHorizontal="" textVertical="" />
+      <BlankCell x="5" y="5" />
+      <BlankCell x="5" y="6" />
+      <ClueCell x="0" y="4" textHorizontal="" textVertical="" />
+      <BlankCell x="3" y="2" />
+      <BlankCell x="5" y="1" />
+      <BlankCell x="2" y="6" />
+    </Cells>
+    <NumberTable word="" table="" />
+    <Style shapeBorders="true" cellSpacing="10.0" crosswordBorder="false" crosswordBorderColor="cmyk(0,0,0,100)" crosswordBorderStroke="basic(5.0,1,1)" name="default" multiLingualName="true" defaultProfile="true">
+      <textParams horizontalTextMargin="0.05" verticalTextMargin="0.05" shrinkFont="true" shrinkFontLimit="2.5" typographicTouch="true" textHyphenation="true" horizontalTextAlign="2" verticalTextAlign="5" lineSpacingCoef="1.0" tracking="0.0" kerning="true" defaultProfile="false" />
+      <clueCellParams middleLineStroke="basic(2.0,0,1)" middleLineColor="cmyk(0,0,0,100)" fontColor="cmyk(0,0,0,100)" font="font(arial,0,12.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <blankCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,64.0)" bgColor="cmyk(0,0,0,0)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(1.0,1,1)" defaultProfile="false" />
+      <helpCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,12.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <textCellParams fontColor="cmyk(0,0,0,100)" font="font(arial,0,20.0)" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <solutionCellParams drawSolutionArrow="false" drawSolutionArrowStroke="false" solutionArrowColor="cmyk(0,0,0,100)" arrowSize="0.25" fontColor="cmyk(0,0,0,100)" font="font(arial,1,64.0)" bgColor="cmyk(0,4,42,6)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(1.0,1,1)" defaultProfile="false">
+        <index font="font(arial,0,14.0)" color="rgb(0,0,0)" showIndexes="true" showCircle="true" circleStroke="basic(1.0,2,0)" circleSize="12" posX="18" posY="18" defaultProfile="false" />
+      </solutionCellParams>
+      <symbolCellParams glyphCode="153" text="" font="font(wingdings,1,80.0)" color="cmyk(0,0,0,80)" imageFile="" type="1" imageSize="90" bgColor="cmyk(0,0,0,34)" shape="roundrect(20.0,20.0)" borderColor="cmyk(0,0,0,100)" borderStroke="basic(2.0,1,1)" defaultProfile="false" />
+      <wordsParams drawArrows="false" drawArrowStroke="false" arrowColor="cmyk(0,0,0,100)" arrowWidth="0.15" arrowHeight="0.15" defaultProfile="false" />
+      <numberCwdParams numberFont="font(Arial,0,20.0)" numberColor="rgb(0,0,0)" tableNumberColor="rgb(0,0,0)" tableNumberFont="font(Arial,0,28.0)" tableLetterColor="rgb(0,0,128)" tableLetterFont="font(Arial,1,38.0)" cellStrokeColor="rgb(0,0,0)" cellFill="rgb(255,255,255)" cellStroke="basic(2.0,1,1)" verticalMargin="6" horizontalMargin="10" cellWidth="50" cellHeight="80" cellMargin="20" position="1" defaultProfile="false" />
+    </Style>
+  </Puzzle>
+  <Form dictionary="cs_demo.dict" />
+  <Preview>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</Preview>
+</CwdStudio>
+

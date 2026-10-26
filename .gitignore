@@ -1,0 +1,35 @@
+# Rust build artifacts
+/target/
+
+# Local run outputs
+/output/
+*.xml
+*.html
+!docs/*.html
+!docs/*.xml
+!reference/*.xml
+*.zip
+
+# Raw scraping and scratch databases
+*.gz
+*.dic
+*.dat
+/krizovka_databaze_*
+/reference/kaikki_*
+/reference/cs_CZ.*
+/reference/thes_*
+/reference/cs_wiktionary.*
+/reference/cs_default.dict
+/reference/cs_demo.dict
+/reference/test_full_dict.txt
+/reference/cs_crossword_extended_quality_audited.tsv
+
+# Packaging scratch folders & temp
+/krizovka_app/
+/krizovka_mac/
+/CrosswordGenerator/
+/scripts/
+/.playwright-cli/
+/.geminiignore
+.DS_Store
+Thumbs.db

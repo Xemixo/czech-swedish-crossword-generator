@@ -1,0 +1,40 @@
+[workspace]
+resolver = "2"
+members = [
+    "crossword_core",
+    "crossword_cli",
+]
+
+[workspace.package]
+version     = "1.0.0"
+edition     = "2021"
+authors     = ["CW Engine Team"]
+license     = "MIT"
+repository  = "https://github.com/Xemixo/czech-swedish-crossword-generator"
+
+[workspace.dependencies]
+# Serialization
+serde       = { version = "1", features = ["derive"] }
+serde_json  = "1"
+quick-xml   = { version = "0.36", features = ["serialize"] }
+
+# Data structures / algorithms
+indexmap    = "2"
+ahash       = "0.8"
+smallvec    = { version = "1", features = ["union"] }
+bitvec      = "1"
+unicode-normalization = "0.1"
+
+# CLI
+clap        = { version = "4", default-features = false, features = ["derive", "std", "help", "usage", "error-context"] }
+
+# Error handling
+thiserror   = "2"
+anyhow      = "1"
+
+# Logging
+tracing     = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Parallelism (future phases)
+rayon       = "1"
